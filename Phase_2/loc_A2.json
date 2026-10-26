@@ -1,0 +1,791 @@
+[
+ {
+  "id": "fastapi_14583",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi._compat.may_v1"
+  ],
+  "functions": [
+   "fastapi._compat.may_v1.BaseModel",
+   "fastapi._compat.may_v1.BaseConfig",
+   "fastapi._compat.may_v1.FieldInfo",
+   "fastapi._compat.may_v1.AnyUrl",
+   "fastapi._compat.may_v1.SecretStr"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "fastapi._compat.may_v1"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi._compat.may_v1\"\n  ],\n  \"functions\": [\n    \"fastapi._compat.may_v1.BaseModel\",\n    \"fastapi._compat.may_v1.BaseConfig\",\n    \"fastapi._compat.may_v1.FieldInfo\",\n    \"fastapi._compat.may_v1.AnyUrl\",\n    \"fastapi._compat.may_v1.SecretStr\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14349",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi._compat.v2"
+  ],
+  "functions": [
+   "fastapi._compat.v2._remap_definitions_and_field_mappings",
+   "fastapi._compat.v2._replace_refs"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 2,
+  "has_fn": true,
+  "read": [
+   "fastapi._compat.v2"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi._compat.v2\"\n  ],\n  \"functions\": [\n    \"fastapi._compat.v2._remap_definitions_and_field_mappings\",\n    \"fastapi._compat.v2._replace_refs\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_9753",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.dependencies.models"
+  ],
+  "functions": [
+   "fastapi.dependencies.models.Dependant._unwrapped_call",
+   "fastapi.dependencies.models.Dependant.is_async_gen_callable",
+   "fastapi.dependencies.models.Dependant.is_coroutine_callable",
+   "fastapi.dependencies.models.Dependant.is_gen_callable"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.dependencies.models",
+   "fastapi.dependencies.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.dependencies.models\"\n  ],\n  \"functions\": [\n    \"fastapi.dependencies.models.Dependant._unwrapped_call\",\n    \"fastapi.dependencies.models.Dependant.is_async_gen_callable\",\n    \"fastapi.dependencies.models.Dependant.is_coroutine_callable\",\n    \"fastapi.dependencies.models.Dependant.is_gen_callable\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14246",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi._compat.v2"
+  ],
+  "functions": [
+   "fastapi._compat.v2._remap_definitions_and_field_mappings",
+   "fastapi._compat.v2._replace_refs",
+   "fastapi._compat.v2.get_definitions"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 3,
+  "has_fn": true,
+  "read": [
+   "fastapi._compat.v2",
+   "fastapi.openapi.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi._compat.v2\"\n  ],\n  \"functions\": [\n    \"fastapi._compat.v2._remap_definitions_and_field_mappings\",\n    \"fastapi._compat.v2._replace_refs\",\n    \"fastapi._compat.v2.get_definitions\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_15589",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.params"
+  ],
+  "functions": [
+   "fastapi.params.Header"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "fastapi.params"
+  ],
+  "raw": "```json\n{\"modules\": [\"fastapi.params\"], \"functions\": [\"fastapi.params.Header\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14356",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.dependencies.utils"
+  ],
+  "functions": [
+   "fastapi.dependencies.utils._get_multidict_value"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "fastapi.dependencies.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.dependencies.utils\"\n  ],\n  \"functions\": [\n    \"fastapi.dependencies.utils._get_multidict_value\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14372",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.params"
+  ],
+  "functions": [
+   "fastapi.params.Depends",
+   "fastapi.params.Security"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.params"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.params\"\n  ],\n  \"functions\": [\n    \"fastapi.params.Depends\",\n    \"fastapi.params.Security\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14962",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.routing"
+  ],
+  "functions": [
+   "fastapi.routing.APIRoute.get_route_handler"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "fastapi.routing"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.routing\"\n  ],\n  \"functions\": [\n    \"fastapi.routing.APIRoute.get_route_handler\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14794",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.dependencies.utils"
+  ],
+  "functions": [
+   "fastapi.dependencies.utils.analyze_param"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.dependencies.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.dependencies.utils\"\n  ],\n  \"functions\": [\n    \"fastapi.dependencies.utils.analyze_param\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14258",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.routing"
+  ],
+  "functions": [
+   "fastapi.routing.APIRouter.include_router"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.routing"
+  ],
+  "raw": "```json\n{\"modules\": [\"fastapi.routing\"], \"functions\": [\"fastapi.routing.APIRouter.include_router\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14430",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi._compat.shared"
+  ],
+  "functions": [
+   "fastapi._compat.shared.field_annotation_is_sequence",
+   "fastapi._compat.shared.field_annotation_is_scalar_sequence",
+   "fastapi._compat.shared.is_bytes_sequence_annotation",
+   "fastapi._compat.shared.is_uploadfile_sequence_annotation"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "fastapi._compat.shared"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi._compat.shared\"\n  ],\n  \"functions\": [\n    \"fastapi._compat.shared.field_annotation_is_sequence\",\n    \"fastapi._compat.shared.field_annotation_is_scalar_sequence\",\n    \"fastapi._compat.shared.is_bytes_sequence_annotation\",\n    \"fastapi._compat.shared.is_uploadfile_sequence_annotation\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_5624",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.dependencies.models"
+  ],
+  "functions": [
+   "fastapi.dependencies.models.Dependant.cache_key"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "fastapi.dependencies.models",
+   "fastapi.dependencies.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.dependencies.models\"\n  ],\n  \"functions\": [\n    \"fastapi.dependencies.models.Dependant.cache_key\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_13207",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi._compat.v2"
+  ],
+  "functions": [
+   "fastapi._compat.v2.get_definitions"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.openapi.utils",
+   "fastapi._compat.v2"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi._compat.v2\"\n  ],\n  \"functions\": [\n    \"fastapi._compat.v2.get_definitions\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14616",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.dependencies.utils"
+  ],
+  "functions": [
+   "fastapi.dependencies.utils._get_multidict_value"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.dependencies.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.dependencies.utils\"\n  ],\n  \"functions\": [\n    \"fastapi.dependencies.utils._get_multidict_value\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14479",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.dependencies.utils"
+  ],
+  "functions": [
+   "fastapi.dependencies.utils.analyze_param"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.dependencies.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.dependencies.utils\"\n  ],\n  \"functions\": [\n    \"fastapi.dependencies.utils.analyze_param\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_14512",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.dependencies.utils"
+  ],
+  "functions": [
+   "fastapi.dependencies.utils._should_embed_body_fields"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "fastapi.dependencies.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.dependencies.utils\"\n  ],\n  \"functions\": [\n    \"fastapi.dependencies.utils._should_embed_body_fields\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "fastapi_13713",
+  "repo": "fastapi",
+  "ok": true,
+  "modules": [
+   "fastapi.applications"
+  ],
+  "functions": [
+   "fastapi.applications.FastAPI.__init__"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "fastapi.applications"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"fastapi.applications\"\n  ],\n  \"functions\": [\n    \"fastapi.applications.FastAPI.__init__\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3063",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.markup"
+  ],
+  "functions": [
+   "rich.markup._parse"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.markup"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.markup\"\n  ],\n  \"functions\": [\n    \"rich.markup._parse\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3777",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.console",
+   "rich.progress",
+   "rich.status"
+  ],
+  "functions": [
+   "rich.console.Console.__init__",
+   "rich.progress.Progress.__init__",
+   "rich.status.Status.__init__"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "rich.console",
+   "rich.progress",
+   "rich.status"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.console\",\n    \"rich.progress\",\n    \"rich.status\"\n  ],\n  \"functions\": [\n    \"rich.console.Console.__init__\",\n    \"rich.progress.Progress.__init__\",\n    \"rich.status.Status.__init__\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_4079",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.table"
+  ],
+  "functions": [
+   "rich.table.Table.__rich_console__",
+   "rich.table.Table._calculate_column_widths"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.table"
+  ],
+  "raw": "```json\n{\"modules\": [\"rich.table\"], \"functions\": [\"rich.table.Table.__rich_console__\", \"rich.table.Table._calculate_column_widths\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3905",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.progress"
+  ],
+  "functions": [
+   "rich.progress.Progress.stop"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "rich.progress"
+  ],
+  "raw": "```json\n{\"modules\": [\"rich.progress\"], \"functions\": [\"rich.progress.Progress.stop\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3472",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.pretty"
+  ],
+  "functions": [
+   "rich.pretty.Node"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.pretty"
+  ],
+  "raw": "```json\n{\"modules\": [\"rich.pretty\"], \"functions\": [\"rich.pretty.Node\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3782",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.syntax"
+  ],
+  "functions": [
+   "rich.syntax.Syntax.__rich_console__"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "rich.syntax"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.syntax\"\n  ],\n  \"functions\": [\n    \"rich.syntax.Syntax.__rich_console__\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3934",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.live"
+  ],
+  "functions": [
+   "rich.live.Live.get_renderable"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.live"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.live\"\n  ],\n  \"functions\": [\n    \"rich.live.Live.get_renderable\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3469",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.text"
+  ],
+  "functions": [
+   "rich.text.Text.render"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.text"
+  ],
+  "raw": "```json\n{\"modules\": [\"rich.text\"], \"functions\": [\"rich.text.Text.render\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3471",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.text"
+  ],
+  "functions": [
+   "rich.text.Text.append_tokens"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "rich.text"
+  ],
+  "raw": "```json\n{\"modules\": [\"rich.text\"], \"functions\": [\"rich.text.Text.append_tokens\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3506",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.segment"
+  ],
+  "functions": [
+   "rich.segment.Segment._split_cells"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "rich.segment"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.segment\"\n  ],\n  \"functions\": [\n    \"rich.segment.Segment._split_cells\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3935",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.padding"
+  ],
+  "functions": [
+   "rich.padding.Padding.__rich_console__",
+   "rich.padding.Padding.__rich_measure__"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.padding",
+   "rich.table"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.padding\"\n  ],\n  \"functions\": [\n    \"rich.padding.Padding.__rich_console__\",\n    \"rich.padding.Padding.__rich_measure__\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3052",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.prompt"
+  ],
+  "functions": [
+   "rich.prompt.PromptBase.__init__",
+   "rich.prompt.PromptBase.ask",
+   "rich.prompt.PromptBase.check_choice"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "rich.prompt"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.prompt\"\n  ],\n  \"functions\": [\n    \"rich.prompt.PromptBase.__init__\",\n    \"rich.prompt.PromptBase.ask\",\n    \"rich.prompt.PromptBase.check_choice\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3470",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.console"
+  ],
+  "functions": [
+   "rich.console.Console.begin_capture",
+   "rich.console.Console.end_capture",
+   "rich.console.Console.capture"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.console"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"rich.console\"\n  ],\n  \"functions\": [\n    \"rich.console.Console.begin_capture\",\n    \"rich.console.Console.end_capture\",\n    \"rich.console.Console.capture\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_4075",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.text"
+  ],
+  "functions": [
+   "rich.text.Text.__bool__"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "rich.text"
+  ],
+  "raw": "```json\n{\"modules\": [\"rich.text\"], \"functions\": [\"rich.text.Text.__bool__\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "rich_3718",
+  "repo": "rich",
+  "ok": true,
+  "modules": [
+   "rich.panel"
+  ],
+  "functions": [
+   "rich.panel.Panel.__rich_console__"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "rich.panel"
+  ],
+  "raw": "```json\n{\"modules\": [\"rich.panel\"], \"functions\": [\"rich.panel.Panel.__rich_console__\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_6644",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests.models"
+  ],
+  "functions": [
+   "requests.models.PreparedRequest.prepare_url"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "requests.models"
+  ],
+  "raw": "```json\n{\"modules\": [\"requests.models\"], \"functions\": [\"requests.models.PreparedRequest.prepare_url\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_6589",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests.utils"
+  ],
+  "functions": [
+   "requests.utils.super_len"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "requests.utils"
+  ],
+  "raw": "```json\n{\"modules\": [\"requests.utils\"], \"functions\": [\"requests.utils.super_len\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_7205",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests.auth"
+  ],
+  "functions": [
+   "requests.auth.HTTPBasicAuth.__call__"
+  ],
+  "mod_rank": null,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "requests.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"requests.auth\"\n  ],\n  \"functions\": [\n    \"requests.auth.HTTPBasicAuth.__call__\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_7433",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests.models"
+  ],
+  "functions": [
+   "requests.models.PreparedRequest.prepare_body"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "requests.models"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"requests.models\"\n  ],\n  \"functions\": [\n    \"requests.models.PreparedRequest.prepare_body\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_7502",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests.models"
+  ],
+  "functions": [],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "requests.models"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"requests.models\"\n  ],\n  \"functions\": [\n    \"requests.models.PreparedRequest._encode_files\"\n  ]\n}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_7505",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests._types"
+  ],
+  "functions": [
+   "requests._types.SupportsRead"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "requests._types"
+  ],
+  "raw": "```json\n{\"modules\": [\"requests._types\"], \"functions\": [\"requests._types.SupportsRead\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_7328",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests.sessions"
+  ],
+  "functions": [
+   "requests.sessions.Session.send"
+  ],
+  "mod_rank": 1,
+  "fn_rank": null,
+  "has_fn": true,
+  "read": [
+   "requests.sessions"
+  ],
+  "raw": "```json\n{\"modules\": [\"requests.sessions\"], \"functions\": [\"requests.sessions.Session.send\"]}\n```",
+  "cond": "A2"
+ },
+ {
+  "id": "requests_7309",
+  "repo": "requests",
+  "ok": true,
+  "modules": [
+   "requests.utils"
+  ],
+  "functions": [
+   "requests.utils._parse_content_type_header"
+  ],
+  "mod_rank": 1,
+  "fn_rank": 1,
+  "has_fn": true,
+  "read": [
+   "requests.utils"
+  ],
+  "raw": "```json\n{\n  \"modules\": [\n    \"requests.utils\"\n  ],\n  \"functions\": [\n    \"requests.utils._parse_content_type_header\"\n  ]\n}\n```",
+  "cond": "A2"
+ }
+]

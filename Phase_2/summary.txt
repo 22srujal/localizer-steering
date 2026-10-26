@@ -1,0 +1,12 @@
+A1    n=40 parsed=40/40 module@1=0.78 module@3=0.78 fn@1=0.47 fn@5=0.50 (module@3 CI 0.62-0.88)  [199s]
+   fastapi n=17 parsed=17/17 module@1=0.71 module@3=0.71 fn@1=0.47 fn@5=0.47 (module@3 CI 0.47-0.87)
+   rich  n=15 parsed=15/15 module@1=0.80 module@3=0.80 fn@1=0.33 fn@5=0.40 (module@3 CI 0.55-0.93)
+   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)
+A1.5  n=40 parsed=40/40 module@1=0.85 module@3=0.88 fn@1=0.65 fn@5=0.70 (module@3 CI 0.74-0.95)  [497s]
+   fastapi n=17 parsed=17/17 module@1=0.76 module@3=0.82 fn@1=0.71 fn@5=0.71 (module@3 CI 0.59-0.94)
+   rich  n=15 parsed=15/15 module@1=0.93 module@3=0.93 fn@1=0.53 fn@5=0.67 (module@3 CI 0.70-0.99)
+   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)
+A2    n=40 parsed=40/40 module@1=0.72 module@3=0.72 fn@1=0.45 fn@5=0.50 (module@3 CI 0.57-0.84)  [282s]
+   fastapi n=17 parsed=17/17 module@1=0.71 module@3=0.71 fn@1=0.47 fn@5=0.59 (module@3 CI 0.47-0.87)
+   rich  n=15 parsed=15/15 module@1=0.73 module@3=0.73 fn@1=0.47 fn@5=0.47 (module@3 CI 0.48-0.89)
+   requests n=8 parsed=8/8 module@1=0.75 module@3=0.75 fn@1=0.38 fn@5=0.38 (module@3 CI 0.41-0.93)

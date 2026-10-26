@@ -1,0 +1,1606 @@
+{
+ "B1": [
+  {
+   "id": "fastapi_14583",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 787,
+   "file_rank": 13,
+   "top10": [
+    "fastapi.temp_pydantic_v1_params.Param",
+    "fastapi.temp_pydantic_v1_params.Path",
+    "fastapi.temp_pydantic_v1_params.Query",
+    "fastapi.temp_pydantic_v1_params.Header",
+    "fastapi.temp_pydantic_v1_params.Cookie",
+    "fastapi.temp_pydantic_v1_params.Body",
+    "fastapi.temp_pydantic_v1_params.Form",
+    "fastapi.temp_pydantic_v1_params.File",
+    "using_request_directly.tutorial001_py39.read_root",
+    "fastapi.temp_pydantic_v1_params.Param.__init__"
+   ],
+   "n_nodes": 1063
+  },
+  {
+   "id": "fastapi_14349",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 211,
+   "file_rank": 10,
+   "top10": [
+    "fastapi._compat.v1.GenerateJsonSchema",
+    "fastapi._compat.may_v1.JsonSchemaValue",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi._compat.may_v1.GetJsonSchemaHandler",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "handling_errors.tutorial005.Item",
+    "fastapi.dependencies.utils.add_param_to_fields",
+    "fastapi.dependencies.utils.request_params_to_args",
+    "handling_errors.tutorial003.UnicornException"
+   ],
+   "n_nodes": 1234
+  },
+  {
+   "id": "fastapi_9753",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 415,
+   "file_rank": 8,
+   "top10": [
+    "fastapi._compat.v1.with_info_plain_validator_function",
+    "dependency_testing.tutorial001.test_override_in_items_with_q",
+    "dependency_testing.tutorial001.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_an.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_q",
+    "fastapi.exceptions.DependencyScopeError",
+    "dependency_testing.tutorial001_an_py39.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an_py310.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_params"
+   ],
+   "n_nodes": 1250
+  },
+  {
+   "id": "fastapi_14246",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 420,
+   "file_rank": 77,
+   "top10": [
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.dependencies.utils._should_embed_body_fields",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "dependency_testing.tutorial001.test_override_in_items_with_q",
+    "fastapi.openapi.models.APIKeyIn",
+    "fastapi.dependencies.utils.add_param_to_fields",
+    "fastapi.dependencies.utils.request_params_to_args",
+    "dependency_testing.tutorial001.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_an.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_q"
+   ],
+   "n_nodes": 1231
+  },
+  {
+   "id": "fastapi_15589",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 17,
+   "file_rank": 10,
+   "top10": [
+    "response_change_status_code.tutorial001_py310.get_or_create_task",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "app_testing.app_b_an_py310.main.Item",
+    "app_testing.app_b_py310.main.Item",
+    "header_param_models.tutorial003_an_py310.CommonHeaders",
+    "header_param_models.tutorial001_an_py310.CommonHeaders",
+    "header_param_models.tutorial002_an_py310.CommonHeaders",
+    "fastapi.utils.get_value_or_default",
+    "using_request_directly.tutorial001_py310.read_root",
+    "custom_request_and_route.tutorial001_an_py310.GzipRequest"
+   ],
+   "n_nodes": 761
+  },
+  {
+   "id": "fastapi_14356",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 154,
+   "file_rank": 8,
+   "top10": [
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "authentication_error_status_code.tutorial001_an.HTTPBearer403.make_not_authenticated_error",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "authentication_error_status_code.tutorial001_an_py39.HTTPBearer403.make_not_authenticated_error",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__",
+    "response_change_status_code.tutorial001.get_or_create_task",
+    "fastapi._compat.main._is_model_class",
+    "fastapi.security.api_key.APIKeyBase.make_not_authenticated_error",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency"
+   ],
+   "n_nodes": 1249
+  },
+  {
+   "id": "fastapi_14372",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 6,
+   "file_rank": 2,
+   "top10": [
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.api_route",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi.applications.FastAPI.add_api_route",
+    "fastapi.params.Depends",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI.openapi",
+    "fastapi.applications.FastAPI.setup",
+    "fastapi.applications.FastAPI.decorator"
+   ],
+   "n_nodes": 1234
+  },
+  {
+   "id": "fastapi_14962",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 153,
+   "file_rank": 4,
+   "top10": [
+    "response_model.tutorial002_py310.UserIn",
+    "response_model.tutorial003_py310.UserIn",
+    "response_model.tutorial003_01_py310.UserIn",
+    "fastapi._compat.v2.ModelField.serialize",
+    "fastapi.openapi.models.ParameterInType",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__",
+    "response_model.tutorial001_py310.Item",
+    "response_model.tutorial004_py310.Item"
+   ],
+   "n_nodes": 720
+  },
+  {
+   "id": "fastapi_14794",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 15,
+   "file_rank": 5,
+   "top10": [
+    "dependency_testing.tutorial001_an_py310.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an_py39.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py39.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an_py310.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_an_py39.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_py39.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_an_py310.test_override_in_items",
+    "dependency_testing.tutorial001_an_py39.test_override_in_items"
+   ],
+   "n_nodes": 979
+  },
+  {
+   "id": "fastapi_14258",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.routing.APIRouter.include_router",
+    "fastapi.applications.FastAPI.include_router",
+    "fastapi.dependencies.utils.add_param_to_fields",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency",
+    "fastapi.openapi.models.Reference",
+    "fastapi._compat.v2._regenerate_error_with_loc",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.dependencies.utils.request_params_to_args",
+    "fastapi.routing.APIRouter.on_event",
+    "dependency_testing.tutorial001_py39.test_override_in_items_with_q"
+   ],
+   "n_nodes": 976
+  },
+  {
+   "id": "fastapi_14430",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 35,
+   "file_rank": 3,
+   "top10": [
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi._compat.v2.is_sequence_field",
+    "fastapi._compat.main.is_sequence_field",
+    "fastapi._compat.v1.is_sequence_field",
+    "fastapi._compat.shared._annotation_is_sequence",
+    "fastapi._compat.shared.value_is_sequence",
+    "fastapi._compat.v2.is_scalar_sequence_field",
+    "fastapi._compat.v2.is_bytes_sequence_field",
+    "fastapi._compat.main.is_bytes_sequence_field"
+   ],
+   "n_nodes": 1250
+  },
+  {
+   "id": "fastapi_5624",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 1178,
+   "file_rank": 435,
+   "top10": [
+    "fastapi.exceptions.DependencyScopeError",
+    "fastapi.dependencies.models.Dependant.computed_scope",
+    "fastapi.security.base.SecurityBase",
+    "fastapi.security.oauth2.SecurityScopes",
+    "fastapi.security.oauth2.SecurityScopes.__init__",
+    "security.tutorial003.User",
+    "security.tutorial005.Token",
+    "security.tutorial005.User",
+    "security.tutorial002.User",
+    "security.tutorial004.Token"
+   ],
+   "n_nodes": 1247
+  },
+  {
+   "id": "fastapi_13207",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 103,
+   "file_rank": 21,
+   "top10": [
+    "fastapi.openapi.models.OpenAPI",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.api_route",
+    "fastapi.applications.FastAPI.add_api_route",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI.openapi",
+    "fastapi.applications.FastAPI.setup",
+    "fastapi.applications.FastAPI.decorator",
+    "fastapi.applications.FastAPI.websocket",
+    "fastapi.applications.FastAPI.get"
+   ],
+   "n_nodes": 1249
+  },
+  {
+   "id": "fastapi_14616",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 103,
+   "file_rank": 11,
+   "top10": [
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi._compat.v2.is_bytes_sequence_field",
+    "fastapi.exceptions.PydanticV1NotSupportedError",
+    "fastapi.datastructures.UploadFile.__get_pydantic_core_schema__",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__",
+    "fastapi.applications.FastAPI.post",
+    "fastapi._compat.shared.is_bytes_or_nonable_bytes_annotation",
+    "fastapi._compat.shared.value_is_sequence",
+    "python_types.tutorial005_py39.get_items",
+    "fastapi._compat.shared.is_bytes_sequence_annotation"
+   ],
+   "n_nodes": 979
+  },
+  {
+   "id": "fastapi_14479",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 4,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.dependencies.utils.get_typed_return_annotation",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi.dependencies.utils.ParamDetails",
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.exceptions.ValidationException._format_endpoint_context",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__",
+    "python_types.tutorial004_py39.get_name_with_age",
+    "python_types.tutorial003_py39.get_name_with_age",
+    "fastapi.routing._extract_endpoint_context",
+    "fastapi.dependencies.utils.ensure_multipart_is_installed"
+   ],
+   "n_nodes": 1063
+  },
+  {
+   "id": "fastapi_14512",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 423,
+   "file_rank": 13,
+   "top10": [
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.openapi.models.Discriminator",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi.utils.generate_operation_id_for_path",
+    "fastapi.dependencies.utils.add_param_to_fields",
+    "fastapi.dependencies.utils.request_params_to_args",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "events.tutorial003.fake_answer_to_everything_ml_model",
+    "fastapi._compat.may_v1._regenerate_error_with_loc"
+   ],
+   "n_nodes": 1310
+  },
+  {
+   "id": "fastapi_13713",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 6,
+   "file_rank": 2,
+   "top10": [
+    "fastapi.openapi.models.ExternalDocumentation",
+    "fastapi.applications.FastAPI.add_api_route",
+    "fastapi.encoders.generate_encoders_by_class_tuples",
+    "fastapi.applications.FastAPI.add_api_websocket_route",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.dependencies.utils.add_param_to_fields",
+    "fastapi.openapi.models.OpenAPI",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi.dependencies.utils.is_union_of_base_models"
+   ],
+   "n_nodes": 1117
+  },
+  {
+   "id": "rich_3063",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 189,
+   "file_rank": 56,
+   "top10": [
+    "rich.console.RichCast.__rich__",
+    "rich.repr.rich_repr",
+    "rich.pretty.RichFormatter",
+    "rich.protocol.rich_cast",
+    "rich.palette.Palette.__rich__",
+    "rich._inspect.Inspect.__rich__",
+    "rich.abc.RichRenderable",
+    "rich.console.RichCast",
+    "rich.status.Status.__rich__",
+    "rich.progress.Progress.__rich__"
+   ],
+   "n_nodes": 1141
+  },
+  {
+   "id": "rich_3777",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 709,
+   "file_rank": 6,
+   "top10": [
+    "rich.progress.Progress.remove_task",
+    "rich.progress_bar.ProgressBar",
+    "rich.progress_bar.ProgressBar.__init__",
+    "rich.progress_bar.ProgressBar.__repr__",
+    "rich.progress_bar.ProgressBar.update",
+    "rich.progress_bar.ProgressBar.percentage_completed",
+    "rich.progress_bar.ProgressBar._render_pulse",
+    "rich.progress_bar.ProgressBar.__rich_console__",
+    "rich.progress_bar.ProgressBar.__rich_measure__",
+    "rich.progress_bar.ProgressBar._get_pulse_segments"
+   ],
+   "n_nodes": 1146
+  },
+  {
+   "id": "rich_4079",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 59,
+   "file_rank": 1,
+   "top10": [
+    "rich.markdown.CodeBlock",
+    "rich.syntax.Syntax._process_code",
+    "rich.markdown.CodeBlock.create",
+    "rich.markdown.CodeBlock.__init__",
+    "rich.markdown.CodeBlock.__rich_console__",
+    "rich.table.Table",
+    "rich.table.Table.__init__",
+    "rich.table.Table.grid",
+    "rich.table.Table.expand",
+    "rich.table.Table.padding"
+   ],
+   "n_nodes": 1157
+  },
+  {
+   "id": "rich_3905",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 12,
+   "file_rank": 5,
+   "top10": [
+    "rich._inspect.is_object_one_of_types",
+    "rich.pretty._has_default_namedtuple_repr",
+    "rich.console.NewLine",
+    "rich._win32_console.LegacyWindowsTerm.erase_start_of_line",
+    "rich.progress.open",
+    "rich.progress.Progress.open",
+    "rich.console.NewLine.__init__",
+    "rich.style.Style.clear_meta_and_links",
+    "rich.color.Color.is_default",
+    "rich.style.Style.update_link"
+   ],
+   "n_nodes": 1154
+  },
+  {
+   "id": "rich_3472",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 116,
+   "file_rank": 2,
+   "top10": [
+    "rich.errors.MissingStyle",
+    "rich.pretty._is_dataclass_repr",
+    "rich.pretty._get_braces_for_defaultdict",
+    "rich.pretty._get_braces_for_deque",
+    "rich.pretty._get_braces_for_array",
+    "rich.syntax.SyntaxTheme.get_style_for_token",
+    "rich.syntax.ANSISyntaxTheme.get_style_for_token",
+    "rich.syntax._get_code_index_for_syntax_position",
+    "rich.syntax.PygmentsSyntaxTheme.get_style_for_token",
+    "rich.console.RichCast.__rich__"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3782",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 9,
+   "file_rank": 3,
+   "top10": [
+    "rich.padding.Padding",
+    "rich.padding.Padding.__init__",
+    "rich.padding.Padding.indent",
+    "rich.padding.Padding.unpack",
+    "rich.padding.Padding.__repr__",
+    "rich.padding.Padding.__rich_console__",
+    "rich.padding.Padding.__rich_measure__",
+    "rich.table.Table.padding",
+    "rich.syntax.Syntax._get_syntax",
+    "rich.syntax.Syntax"
+   ],
+   "n_nodes": 1146
+  },
+  {
+   "id": "rich_3934",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 4,
+   "file_rank": 1,
+   "top10": [
+    "rich.live.Live",
+    "rich.live.Live.__init__",
+    "rich.live.Live.start",
+    "rich.live.Live.stop",
+    "rich.live.Live.__enter__",
+    "rich.live.Live.__exit__",
+    "rich.live.Live.renderable",
+    "rich.live.Live.update",
+    "rich.live.Live.refresh",
+    "rich.live_render.LiveRender"
+   ],
+   "n_nodes": 1153
+  },
+  {
+   "id": "rich_3469",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 33,
+   "file_rank": 22,
+   "top10": [
+    "rich.console.RichCast.__rich__",
+    "rich.progress.Progress.__rich__",
+    "rich.repr.rich_repr",
+    "rich.palette.Palette.__rich__",
+    "rich.status.Status.__rich__",
+    "rich.pretty.RichFormatter",
+    "rich.logging.RichHandler",
+    "rich.json.JSON.__rich__",
+    "rich._inspect.Inspect.__rich__",
+    "rich.abc.RichRenderable"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3471",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "rich.text.Text.append_tokens",
+    "examples.exception.divide_by",
+    "examples.exception.divide_all",
+    "rich.text.Text.append",
+    "rich.containers.Renderables.append",
+    "rich.containers.Lines.append",
+    "rich.markdown.Markdown._flatten_tokens",
+    "rich.pretty.Node.iter_tokens",
+    "rich.console.Console.print_exception",
+    "rich.traceback.Traceback.from_exception"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3506",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "rich.segment.Segment._split_cells",
+    "rich.segment.Segment.split_cells",
+    "rich.segment.Segment.split_lines",
+    "rich.segment.Segment.split_and_crop_lines",
+    "rich.cells.chop_cells",
+    "rich.segment.Segment",
+    "rich.segment.Segment.__bool__",
+    "rich.segment.Segment.line",
+    "rich.segment.Segment.simplify",
+    "rich.segment.Segment.divide"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3935",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "rich.table.Table._get_padding_width",
+    "rich.padding.Padding",
+    "rich.padding.Padding.__init__",
+    "rich.padding.Padding.indent",
+    "rich.padding.Padding.unpack",
+    "rich.padding.Padding.__repr__",
+    "rich.padding.Padding.__rich_console__",
+    "rich.padding.Padding.__rich_measure__",
+    "rich.console.Console.width",
+    "rich.table.Table._extra_width"
+   ],
+   "n_nodes": 1154
+  },
+  {
+   "id": "rich_3052",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "rich.prompt.PromptBase.ask",
+    "rich.prompt.PromptBase.render_default",
+    "rich.color.Color.is_default",
+    "rich.prompt.Confirm.render_default",
+    "rich._inspect.is_object_one_of_types",
+    "rich.prompt.PromptBase.on_validate_error",
+    "rich.syntax._get_code_index_for_syntax_position",
+    "rich.markdown.Heading.on_enter",
+    "rich.markdown.MarkdownElement.on_enter",
+    "rich.markdown.TextElement.on_enter"
+   ],
+   "n_nodes": 1142
+  },
+  {
+   "id": "rich_3470",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 702,
+   "file_rank": 1,
+   "top10": [
+    "rich.console.Capture",
+    "rich.filesize.pick_unit_and_suffix",
+    "rich.console.CaptureError",
+    "rich.console.Capture.__init__",
+    "rich.console.Capture.__enter__",
+    "rich.console.Capture.__exit__",
+    "rich.console.Capture.get",
+    "rich.console.Console.capture",
+    "rich.style.Style.clear_meta_and_links",
+    "rich.segment.Segment.split_and_crop_lines"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_4075",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 539,
+   "file_rank": 2,
+   "top10": [
+    "rich.text.Text.rstrip_end",
+    "rich.console.Console.end_capture",
+    "rich.measure.Measurement.with_maximum",
+    "rich.measure.Measurement.with_minimum",
+    "rich.text.Text.with_indent_guides",
+    "rich.pretty._get_braces_for_defaultdict",
+    "rich.pretty._get_braces_for_deque",
+    "rich.pretty._get_braces_for_array",
+    "benchmarks.benchmarks.SyntaxWrappingSuite._print_with_width",
+    "rich._win32_console.LegacyWindowsTerm.erase_end_of_line"
+   ],
+   "n_nodes": 1156
+  },
+  {
+   "id": "rich_3718",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 17,
+   "file_rank": 1,
+   "top10": [
+    "rich.panel.Panel._title",
+    "examples.exception.divide_all",
+    "rich.errors.MissingStyle",
+    "rich.style.Style.background_style",
+    "rich.style.Style.transparent_background",
+    "examples.dynamic_progress.run_steps",
+    "rich.style.Style.clear_meta_and_links",
+    "rich.style.Style.on",
+    "rich.syntax._get_code_index_for_syntax_position",
+    "rich.panel.Panel"
+   ],
+   "n_nodes": 1149
+  },
+  {
+   "id": "requests_6644",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 5,
+   "file_rank": 4,
+   "top10": [
+    "requests.models.RequestEncodingMixin.path_url",
+    "requests.cookies.MockRequest.get_full_url",
+    "requests.cookies.MockRequest.host",
+    "requests.utils.requote_uri",
+    "requests.adapters.HTTPAdapter.request_url",
+    "requests.cookies.MockRequest.get_host",
+    "requests.utils.address_in_network",
+    "requests.exceptions.ConnectionError",
+    "requests.models.PreparedRequest.prepare_url",
+    "requests.cookies.MockRequest.origin_req_host"
+   ],
+   "n_nodes": 285
+  },
+  {
+   "id": "requests_6589",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "requests.utils.super_len",
+    "requests.auth._basic_auth_str",
+    "setup.PyTest.run_tests",
+    "requests.structures.CaseInsensitiveDict.__len__",
+    "requests.models.Response.raise_for_status",
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.models.PreparedRequest._get_idna_encoded_host",
+    "requests.models.Response.is_redirect",
+    "requests.cookies.morsel_to_cookie",
+    "requests.utils.dict_to_sequence"
+   ],
+   "n_nodes": 284
+  },
+  {
+   "id": "requests_7205",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 2,
+   "file_rank": 1,
+   "top10": [
+    "requests.utils.unquote_header_value",
+    "requests.utils.get_netrc_auth",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header",
+    "requests.utils.parse_header_links",
+    "requests.utils._parse_content_type_header",
+    "requests.models.RequestEncodingMixin._encode_params",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.auth.HTTPDigestAuth.build_digest_header",
+    "requests.utils.address_in_network"
+   ],
+   "n_nodes": 285
+  },
+  {
+   "id": "requests_7433",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 2,
+   "file_rank": 2,
+   "top10": [
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.models.PreparedRequest.prepare_body",
+    "requests._types.DataKwargs",
+    "requests.auth._basic_auth_str",
+    "requests.structures.LookupDict.__getattr__",
+    "requests.compat._resolve_char_detection",
+    "requests.exceptions.FileModeWarning",
+    "requests.utils.prepend_scheme_if_needed",
+    "requests.utils.rewind_body",
+    "requests.exceptions.StreamConsumedError"
+   ],
+   "n_nodes": 300
+  },
+  {
+   "id": "requests_7502",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.compat._resolve_char_detection",
+    "requests.exceptions.FileModeWarning",
+    "requests.structures.LookupDict.__getattr__",
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.models.Response.raise_for_status",
+    "requests.models.RequestEncodingMixin._encode_params",
+    "requests.cookies.MockRequest",
+    "requests.cookies.MockRequest.__init__",
+    "requests.cookies.MockRequest.get_type"
+   ],
+   "n_nodes": 300
+  },
+  {
+   "id": "requests_7505",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 257,
+   "file_rank": 1,
+   "top10": [
+    "requests._types.SupportsRead.read",
+    "requests._types.SupportsRead",
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.utils.add_dict_to_cookiejar",
+    "requests._types.DataKwargs",
+    "requests.exceptions.MissingSchema",
+    "requests.api.put",
+    "requests.check_compatibility",
+    "requests._check_cryptography",
+    "requests.utils.address_in_network"
+   ],
+   "n_nodes": 300
+  },
+  {
+   "id": "requests_7328",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 10,
+   "file_rank": 2,
+   "top10": [
+    "requests.utils.address_in_network",
+    "requests.sessions.SessionRedirectMixin.should_strip_auth",
+    "requests.sessions.Session.send",
+    "requests.models.Response.raise_for_status",
+    "requests.sessions.SessionRedirectMixin.get_redirect_target",
+    "requests.sessions.SessionRedirectMixin",
+    "requests.models.Response.is_redirect",
+    "requests.models.Response.is_permanent_redirect",
+    "requests.cookies.remove_cookie_by_name",
+    "requests.sessions.SessionRedirectMixin.resolve_redirects"
+   ],
+   "n_nodes": 285
+  },
+  {
+   "id": "requests_7309",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "requests.utils._parse_content_type_header",
+    "requests.utils.is_valid_cidr",
+    "requests.utils.unquote_header_value",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header",
+    "requests.utils.parse_header_links",
+    "requests.utils.get_encodings_from_content",
+    "requests.sessions.merge_setting",
+    "requests.utils.address_in_network",
+    "requests.cookies.remove_cookie_by_name"
+   ],
+   "n_nodes": 285
+  }
+ ],
+ "B2": [
+  {
+   "id": "fastapi_14583",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 75,
+   "file_rank": 17,
+   "top10": [
+    "fastapi.temp_pydantic_v1_params.Param.__init__",
+    "fastapi.temp_pydantic_v1_params.Body.__init__",
+    "fastapi.params.Param.__init__",
+    "fastapi.params.Body.__init__",
+    "fastapi.utils.generate_operation_id_for_path",
+    "fastapi.openapi.utils.generate_operation_id",
+    "fastapi._compat.v2.ModelField.__post_init__",
+    "fastapi._compat.v1.PydanticSchemaGenerationError",
+    "fastapi._compat.shared.annotation_is_pydantic_v1",
+    "pydantic_v1_in_v2.tutorial003_an_py310.Item"
+   ],
+   "n_nodes": 1063
+  },
+  {
+   "id": "fastapi_14349",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 4,
+   "file_rank": 1,
+   "top10": [
+    "fastapi._compat.v2.get_schema_from_model_field",
+    "fastapi.exceptions.HTTPException",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi._compat.v2._replace_refs",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.applications.FastAPI.options",
+    "fastapi.applications.FastAPI.trace"
+   ],
+   "n_nodes": 1234
+  },
+  {
+   "id": "fastapi_9753",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 622,
+   "file_rank": 17,
+   "top10": [
+    "fastapi.security.oauth2.OAuth2PasswordRequestForm",
+    "fastapi.param_functions.Security",
+    "fastapi.param_functions.Depends",
+    "fastapi.security.oauth2.OAuth2PasswordRequestFormStrict",
+    "fastapi.routing.request_response",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI.get"
+   ],
+   "n_nodes": 1250
+  },
+  {
+   "id": "fastapi_14246",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 91,
+   "file_rank": 3,
+   "top10": [
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.applications.FastAPI.options",
+    "fastapi.applications.FastAPI.trace",
+    "fastapi.applications.FastAPI.delete",
+    "fastapi.routing.APIRouter.get",
+    "fastapi.routing.APIRouter.options"
+   ],
+   "n_nodes": 1231
+  },
+  {
+   "id": "fastapi_15589",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 46,
+   "file_rank": 8,
+   "top10": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.security.open_id_connect_url.OpenIdConnect",
+    "fastapi.security.oauth2.OAuth2AuthorizationCodeBearer",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.param_functions.Header",
+    "fastapi.applications.FastAPI",
+    "fastapi.security.oauth2.OAuth2",
+    "fastapi.security.http.HTTPDigest",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.head"
+   ],
+   "n_nodes": 761
+  },
+  {
+   "id": "fastapi_14356",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 66,
+   "file_rank": 9,
+   "top10": [
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.routing.APIRouter.get",
+    "fastapi.security.oauth2.OAuth2PasswordRequestForm",
+    "fastapi.routing.APIRouter.head",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.applications.FastAPI.patch",
+    "fastapi.routing.APIRouter.trace",
+    "fastapi.routing.APIRouter.post",
+    "fastapi.routing.APIRouter"
+   ],
+   "n_nodes": 1249
+  },
+  {
+   "id": "fastapi_14372",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 68,
+   "file_rank": 13,
+   "top10": [
+    "fastapi.param_functions.Security",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.security.oauth2.OAuth2",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter",
+    "fastapi.security.api_key.APIKeyCookie",
+    "fastapi.security.api_key.APIKeyHeader",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.applications.FastAPI.options",
+    "fastapi.applications.FastAPI.trace"
+   ],
+   "n_nodes": 1234
+  },
+  {
+   "id": "fastapi_14962",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 21,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.patch",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.routing.APIRouter.patch",
+    "fastapi.routing.APIRouter.post",
+    "fastapi.applications.FastAPI.put",
+    "fastapi.routing.APIRouter.trace",
+    "fastapi.routing.APIRouter.put",
+    "fastapi.routing.APIRouter.head",
+    "fastapi.applications.FastAPI.get"
+   ],
+   "n_nodes": 720
+  },
+  {
+   "id": "fastapi_14794",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.param_functions.Depends",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter",
+    "fastapi.security.api_key.APIKeyHeader",
+    "fastapi.security.api_key.APIKeyCookie",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.applications.FastAPI.options"
+   ],
+   "n_nodes": 979
+  },
+  {
+   "id": "fastapi_14258",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 3,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.routing._DefaultLifespan",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.routing.APIRouter.include_router",
+    "fastapi.applications.FastAPI.include_router",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter.add_event_handler",
+    "fastapi.routing.APIRouter.get",
+    "fastapi.routing.APIRouter.options"
+   ],
+   "n_nodes": 976
+  },
+  {
+   "id": "fastapi_14430",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 60,
+   "file_rank": 12,
+   "top10": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.param_functions.Security",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.applications.FastAPI.patch",
+    "fastapi.routing.APIRouter.post",
+    "fastapi.routing.APIRouter.trace",
+    "fastapi.applications.FastAPI.put"
+   ],
+   "n_nodes": 1250
+  },
+  {
+   "id": "fastapi_5624",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.dependencies.utils.get_parameterless_sub_dependant",
+    "fastapi.security.oauth2.SecurityScopes.__init__",
+    "fastapi.dependencies.models.Dependant.cache_key",
+    "fastapi.routing.APIRoute.matches",
+    "fastapi.routing.APIWebSocketRoute.matches",
+    "fastapi.security.oauth2.OAuth2PasswordRequestFormStrict.__init__",
+    "fastapi.dependencies.models.Dependant.computed_scope",
+    "fastapi.exceptions.DependencyScopeError",
+    "fastapi.routing.websocket_session"
+   ],
+   "n_nodes": 1247
+  },
+  {
+   "id": "fastapi_13207",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 22,
+   "file_rank": 3,
+   "top10": [
+    "fastapi.applications.FastAPI.openapi",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.applications.FastAPI.options",
+    "fastapi.applications.FastAPI.trace",
+    "fastapi.applications.FastAPI.delete",
+    "fastapi.applications.FastAPI.head",
+    "fastapi.applications.FastAPI.post"
+   ],
+   "n_nodes": 1249
+  },
+  {
+   "id": "fastapi_14616",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 60,
+   "file_rank": 9,
+   "top10": [
+    "fastapi.datastructures.UploadFile",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.routing.APIRouter.post",
+    "fastapi.security.oauth2.OAuth2PasswordRequestFormStrict",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.routing.APIRouter",
+    "fastapi.security.oauth2.OAuth2PasswordRequestForm",
+    "fastapi.routing.APIRouter.get"
+   ],
+   "n_nodes": 979
+  },
+  {
+   "id": "fastapi_14479",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.param_functions.Depends",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.param_functions.Path",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.param_functions.File",
+    "fastapi.applications.FastAPI.build_middleware_stack",
+    "fastapi.security.api_key.APIKeyQuery"
+   ],
+   "n_nodes": 1063
+  },
+  {
+   "id": "fastapi_14512",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 132,
+   "file_rank": 10,
+   "top10": [
+    "fastapi.param_functions.Body",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.param_functions.Header",
+    "fastapi.applications.FastAPI.build_middleware_stack",
+    "fastapi.param_functions.Path",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi.applications.FastAPI",
+    "fastapi.param_functions.Query",
+    "fastapi.param_functions.Cookie"
+   ],
+   "n_nodes": 1310
+  },
+  {
+   "id": "fastapi_13713",
+   "repo": "fastapi",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.security.api_key.APIKeyQuery",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.applications.FastAPI.options",
+    "fastapi.applications.FastAPI.trace",
+    "fastapi.applications.FastAPI.delete",
+    "fastapi.applications.FastAPI.head",
+    "fastapi.applications.FastAPI.post"
+   ],
+   "n_nodes": 1117
+  },
+  {
+   "id": "rich_3063",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 744,
+   "file_rank": 62,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._check_buffer",
+    "rich._win32_console.GetConsoleMode",
+    "rich._fileno.get_fileno",
+    "rich.box.Box.substitute",
+    "rich.pretty._ipy_display_hook",
+    "rich.syntax.Syntax",
+    "rich.syntax.Syntax.from_path"
+   ],
+   "n_nodes": 1141
+  },
+  {
+   "id": "rich_3777",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 7,
+   "file_rank": 1,
+   "top10": [
+    "rich.console.Console.is_terminal",
+    "examples.dynamic_progress.run_steps",
+    "rich.progress.open",
+    "rich.progress.wrap_file",
+    "rich.progress.Progress.wrap_file",
+    "rich.progress.Progress.open",
+    "rich.diagnose.report",
+    "rich.progress.Progress.get_default_columns",
+    "rich.progress.track",
+    "rich.console.Console.save_svg"
+   ],
+   "n_nodes": 1146
+  },
+  {
+   "id": "rich_4079",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 93,
+   "file_rank": 2,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.markdown.Markdown",
+    "rich.markdown.Markdown.__init__",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.markdown.MarkdownContext.__init__",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich.console.Console.save_html",
+    "rich.markdown.MarkdownContext",
+    "rich.markdown.Markdown.__rich_console__"
+   ],
+   "n_nodes": 1157
+  },
+  {
+   "id": "rich_3905",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 98,
+   "file_rank": 2,
+   "top10": [
+    "rich.console.Console.set_window_title",
+    "rich.console.Console.on_broken_pipe",
+    "rich.console.Console._write_buffer",
+    "rich.progress.Progress.open",
+    "rich.traceback.Traceback._guess_lexer",
+    "rich.console.Console.save_svg",
+    "rich.progress.Progress.get_default_columns",
+    "rich.syntax.Syntax.highlight",
+    "rich.progress.track",
+    "rich.pretty._is_namedtuple"
+   ],
+   "n_nodes": 1154
+  },
+  {
+   "id": "rich_3472",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 7,
+   "file_rank": 2,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.pretty._is_dataclass_repr",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.console.Console._write_buffer",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.errors.MissingStyle",
+    "rich.pretty._traverse",
+    "rich.pretty.traverse",
+    "rich._win32_console.GetConsoleMode",
+    "rich.box.Box.substitute"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3782",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 7,
+   "file_rank": 5,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich.syntax.Syntax",
+    "rich.syntax.Syntax.from_path",
+    "rich.syntax.Syntax.__rich_console__",
+    "rich.syntax.Syntax.__rich_measure__",
+    "rich.syntax.Syntax.__init__",
+    "rich.syntax.Syntax._numbers_column_width"
+   ],
+   "n_nodes": 1146
+  },
+  {
+   "id": "rich_3934",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 28,
+   "file_rank": 6,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich._win32_console.GetConsoleMode",
+    "rich.console.Console.set_live",
+    "rich.live.Live.renderable",
+    "rich.live.Live.is_started",
+    "rich.live.Live.__enter__",
+    "rich.errors.LiveError"
+   ],
+   "n_nodes": 1153
+  },
+  {
+   "id": "rich_3469",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 1001,
+   "file_rank": 13,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich._win32_console.GetConsoleMode",
+    "rich.text.Text.align",
+    "rich.align.VerticalCenter.__rich_console__",
+    "rich.align.Align.__rich_console__",
+    "rich.panel.Panel.align_text",
+    "rich.align.Align.generate_segments"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3471",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 3,
+   "file_rank": 3,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.text.Text.append_tokens",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.syntax.Syntax.highlight",
+    "rich.markdown.Markdown._flatten_tokens",
+    "rich.syntax.Syntax.tokens_to_spans",
+    "rich.containers.Lines.justify",
+    "rich.pretty.Node.iter_tokens"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3506",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 3,
+   "file_rank": 2,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.segment.Segment.split_cells",
+    "rich.segment.Segment._split_cells",
+    "rich.console.Console._write_buffer",
+    "rich.segment.Segment.divide",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.segment.Segment.split_lines",
+    "rich.console.Console.on_broken_pipe",
+    "rich.segment.Segment.split_and_crop_lines"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_3935",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 10,
+   "file_rank": 6,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich.syntax.Syntax.__rich_measure__",
+    "rich.syntax.Syntax.from_path",
+    "rich.table.Table._measure_column",
+    "rich.columns.Columns.__rich_console__",
+    "rich.padding.Padding.__rich_console__",
+    "rich.table.Table._get_padding_width"
+   ],
+   "n_nodes": 1154
+  },
+  {
+   "id": "rich_3052",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "rich.prompt.PromptBase.ask",
+    "rich.console.Console.set_window_title",
+    "rich.console.Console._check_buffer",
+    "rich.prompt.PromptBase",
+    "rich.console.Console.input",
+    "rich.json.JSON.from_data",
+    "rich.traceback.install",
+    "rich.syntax.Syntax.guess_lexer",
+    "rich.tree.Tree.add",
+    "rich.prompt.Prompt"
+   ],
+   "n_nodes": 1142
+  },
+  {
+   "id": "rich_3470",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 2,
+   "file_rank": 2,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console.begin_capture",
+    "rich.console.Console.end_capture",
+    "rich.logging.RichHandler.emit",
+    "rich.logging.RichHandler.get_level_text",
+    "rich.console.Console.capture",
+    "rich.console.Capture.__enter__"
+   ],
+   "n_nodes": 1145
+  },
+  {
+   "id": "rich_4075",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 78,
+   "file_rank": 2,
+   "top10": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.text.Text.split",
+    "rich.console.Console.on_broken_pipe",
+    "rich._win32_console.GetConsoleMode",
+    "rich.live.Live.refresh",
+    "benchmarks.benchmarks.TextSuite.time_indent_guides",
+    "rich.text.Text.pad_left"
+   ],
+   "n_nodes": 1156
+  },
+  {
+   "id": "rich_3718",
+   "repo": "rich",
+   "has_fn": true,
+   "fn_rank": 133,
+   "file_rank": 5,
+   "top10": [
+    "rich.console.Console.set_window_title",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.json.JSON.from_data",
+    "rich.print_json",
+    "rich.console.Console.save_svg",
+    "rich.panel.Panel",
+    "rich.console.Console.print_json",
+    "rich.pretty._is_dataclass_repr",
+    "rich._ratio.ratio_resolve",
+    "rich.syntax.Syntax.highlight"
+   ],
+   "n_nodes": 1149
+  },
+  {
+   "id": "requests_6644",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 21,
+   "file_rank": 1,
+   "top10": [
+    "requests.adapters.HTTPAdapter",
+    "requests.models.PreparedRequest.prepare_url",
+    "requests.cookies.MockRequest.get_full_url",
+    "requests.utils.unquote_header_value",
+    "requests.adapters.HTTPAdapter.send",
+    "requests.sessions.SessionRedirectMixin.should_strip_auth",
+    "requests.utils.should_bypass_proxies",
+    "requests.adapters.HTTPAdapter.get_connection",
+    "requests.utils.prepend_scheme_if_needed",
+    "requests.adapters.HTTPAdapter.init_poolmanager"
+   ],
+   "n_nodes": 285
+  },
+  {
+   "id": "requests_6589",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "requests.utils.super_len",
+    "requests.utils.unquote_unreserved",
+    "requests.models.Response.json",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.utils.unquote_header_value",
+    "requests.utils.prepend_scheme_if_needed",
+    "requests.sessions.Session.send",
+    "requests.sessions.SessionRedirectMixin.get_redirect_target",
+    "requests.models.Response.text",
+    "requests.auth._basic_auth_str"
+   ],
+   "n_nodes": 284
+  },
+  {
+   "id": "requests_7205",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 4,
+   "file_rank": 1,
+   "top10": [
+    "requests.utils.super_len",
+    "requests.auth._basic_auth_str",
+    "requests.utils.prepend_scheme_if_needed",
+    "requests.utils.get_netrc_auth",
+    "requests.sessions.SessionRedirectMixin.rebuild_proxies",
+    "requests.utils.unquote_header_value",
+    "requests.utils.parse_dict_header",
+    "requests.utils.parse_list_header",
+    "requests.models.Response.json",
+    "requests.adapters.HTTPAdapter.proxy_headers"
+   ],
+   "n_nodes": 285
+  },
+  {
+   "id": "requests_7433",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 1,
+   "file_rank": 1,
+   "top10": [
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.RequestEncodingMixin._encode_params",
+    "requests.models.Response.iter_content",
+    "requests.utils.super_len",
+    "requests.api.request",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.sessions.Session.request",
+    "requests.utils.from_key_val_list",
+    "requests.adapters.HTTPAdapter.send",
+    "requests.structures.CaseInsensitiveDict"
+   ],
+   "n_nodes": 300
+  },
+  {
+   "id": "requests_7502",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 2,
+   "file_rank": 1,
+   "top10": [
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.models.RequestEncodingMixin",
+    "requests.compat._resolve_char_detection",
+    "requests.utils.super_len",
+    "requests.utils.unquote_header_value",
+    "requests.utils.get_netrc_auth",
+    "requests.utils.rewind_body",
+    "requests.models.Request.__init__",
+    "requests.structures.LookupDict.__getattr__"
+   ],
+   "n_nodes": 300
+  },
+  {
+   "id": "requests_7505",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 5,
+   "file_rank": 3,
+   "top10": [
+    "requests.adapters.HTTPAdapter.proxy_headers",
+    "requests.adapters.HTTPAdapter.send",
+    "requests.auth._basic_auth_str",
+    "requests.models.Response.iter_content",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.api.request",
+    "requests.utils.unquote_header_value",
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.RequestEncodingMixin._encode_params",
+    "requests.adapters.HTTPAdapter.get_connection_with_tls_context"
+   ],
+   "n_nodes": 300
+  },
+  {
+   "id": "requests_7328",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 7,
+   "file_rank": 1,
+   "top10": [
+    "requests.sessions.SessionRedirectMixin.rebuild_method",
+    "requests.sessions.Session.send",
+    "requests.utils.super_len",
+    "requests.models.Response.__init__",
+    "requests.sessions.SessionRedirectMixin.get_redirect_target",
+    "requests.sessions.SessionRedirectMixin.rebuild_auth",
+    "requests.sessions.SessionRedirectMixin.resolve_redirects",
+    "requests.adapters.BaseAdapter.send",
+    "requests.utils.extract_zipped_paths",
+    "requests.api.request"
+   ],
+   "n_nodes": 285
+  },
+  {
+   "id": "requests_7309",
+   "repo": "requests",
+   "has_fn": true,
+   "fn_rank": 8,
+   "file_rank": 2,
+   "top10": [
+    "requests.sessions.SessionRedirectMixin.resolve_redirects",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header",
+    "requests.models.PreparedRequest.prepare_url",
+    "requests.adapters.HTTPAdapter.get_connection",
+    "requests.utils.unquote_header_value",
+    "requests.utils.get_encoding_from_headers",
+    "requests.utils._parse_content_type_header",
+    "requests.auth.HTTPDigestAuth.handle_401",
+    "requests.utils.extract_zipped_paths"
+   ],
+   "n_nodes": 285
+  }
+ ]
+}
