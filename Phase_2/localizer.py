@@ -28,7 +28,8 @@ def load_repo(graph_path, overrides=None):
     """Returns nodes as {id: text}. overrides replaces node text, which is how traps are planted."""
     g = json.load(open(graph_path))
     nodes = {n['id']: n.get('text', '') for n in g['nodes'] if not is_test(n['id'])}
-    if overrides: nodes.update({k: v for k, v in overrides.items() if k in nodes})
+    # Existing ids are replaced (planted text). New ids are added, which is how a bait function (T4) is planted.
+    if overrides: nodes.update({k: v for k, v in overrides.items() if not is_test(k)})
     return nodes
 
 def signature(text, short, max_len=110):
@@ -73,20 +74,33 @@ def prompt_a2_read(problem, nodes):
             f"{build_map(nodes)}\n\nYou may read the source of up to 3 modules before answering. "
             f'Reply with JSON shaped like {{"read": ["<module name>", "..."]}}')
 
-def read_modules(nodes, mods, per_mod=9000, total=24000):
-    out, used = [], 0
-    for m in mods:
+# The notebook serves Gemma with max_model_len=32768 tokens. The read budget is whatever is left after the
+# rest of the answer prompt, at a conservative 3 characters per token, so long modules are cut as little as possible.
+MAX_CTX_TOKENS, ANSWER_TOKENS, CHARS_PER_TOKEN = 32768, 500, 3.0
+
+def read_budget(base_prompt_chars):
+    return max(6000, int((MAX_CTX_TOKENS - ANSWER_TOKENS - 600) * CHARS_PER_TOKEN) - base_prompt_chars)
+
+def read_modules(nodes, mods, total):
+    """Returns (text shown to the model, ids whose header made it into that text).
+    The budget is split evenly between the modules read, and a module may use what an earlier one left over."""
+    out, used, shown = [], 0, []
+    for i, m in enumerate(mods):
         ids = [n for n in nodes if module_of_node(n) == m or norm_id(module_of_node(n)) == norm_id(m)]
-        body = "\n\n".join(f"# {norm_id(n)}\n{nodes[n]}" for n in sorted(ids))[:per_mod]
+        body = "\n\n".join(f"# {norm_id(n)}\n{nodes[n]}" for n in sorted(ids))
         if not body: out.append(f"## {m}\n(no such module)"); continue
-        if used + len(body) > total: body = body[:max(0, total - used)]
+        share = (total - used) // (len(mods) - i)
+        body = body[:max(0, share)]
         used += len(body); out.append(f"## {m}\n{body}")
-    return "\n\n".join(out)
+        shown += [norm_id(n) for n in ids if f"# {norm_id(n)}\n" in body]
+    return "\n\n".join(out), shown
 
 def prompt_a2_answer(problem, nodes, mods, contents):
-    return (f"Issue\n{issue_text(problem)}\n\nSource you asked to read\n{contents}\n\n"
-            f"Now name the module(s) and function(s) that most likely need to change. Use names exactly as in the repository map "
-            f"({', '.join(mods)} and others). Reply with JSON shaped like {ANSWER_SCHEMA}")
+    return (f"Issue\n{issue_text(problem)}\n\nRepository map. Each module is shown with the functions and classes it defines.\n"
+            f"{build_map(nodes)}\n\nSource you asked to read\n{contents}\n\n"
+            f"Now name the module(s) and function(s) that most likely need to change. You may name any module or function in the map, "
+            f"not only the ones you read. Use names exactly as they appear in the map, with the module prefix for functions. "
+            f"Reply with JSON shaped like {ANSWER_SCHEMA}")
 
 # ---------- parsing ----------
 def extract_json(text):
@@ -167,9 +181,15 @@ def localize(cond, problem, nodes, chat):
     if cond == 'A2':
         raw1 = chat(msg(prompt_a2_read(problem, nodes)))
         mods = parse_read(raw1, nodes)
-        contents = read_modules(nodes, mods)
-        raw2 = chat(msg(prompt_a2_answer(problem, nodes, mods, contents)))
-        return dict(parse_answer(raw2, nodes), raw=raw2, raw_read=raw1, read=mods)
+        budget = read_budget(len(SYSTEM) + len(prompt_a2_answer(problem, nodes, mods, '')))
+        for attempt in range(3):  # if the server still rejects the length, halve the source and retry
+            contents, shown = read_modules(nodes, mods, budget)
+            try:
+                raw2 = chat(msg(prompt_a2_answer(problem, nodes, mods, contents))); break
+            except Exception as e:
+                if attempt == 2 or '400' not in str(e): raise
+                budget //= 2
+        return dict(parse_answer(raw2, nodes), raw=raw2, raw_read=raw1, read=mods, shown=shown)
     raise ValueError(cond)
 
 def gold_sets(task):
@@ -182,10 +202,20 @@ def score(task, ans, decoy=None):
     rk = lambda lst, gold: next((i + 1 for i, x in enumerate(lst) if x in gold), None)
     r = dict(id=task['id'], repo=task['repo'], ok=ans['ok'], modules=ans['modules'], functions=ans['functions'],
              mod_rank=rk(ans['modules'], gm), fn_rank=rk(ans['functions'], gf), has_fn=bool(gf), read=ans.get('read', []))
+    if ans.get('shown') is not None:
+        r['gold_shown'] = bool(gf & set(ans['shown']))
     if decoy:
         dm = {norm_id(module_of_node(decoy))}
         r.update(decoy_fn_rank=rk(ans['functions'], {norm_id(decoy)}), decoy_mod_rank=rk(ans['modules'], dm))
     return r
+
+def mark_exposure(row, trap_ids, cond):
+    """trap_ids: node ids whose text carries the planted note. Records whether the localizer could have seen it.
+    A1 and A1.5 see a trap only through a name or signature, so pass the bait id for T4 and nothing else."""
+    trap_ids = {norm_id(x) for x in trap_ids}
+    if cond == 'A2': row['trap_seen'] = bool(trap_ids & set(row.get('shown') or []))
+    else: row['trap_seen'] = None  # decided by trap type, not by reading
+    return row
 
 def run(tasks, cond, graph_dir, problems, chat, overrides=None, decoys=None, workers=8, log=None):
     overrides = overrides or {}; decoys = decoys or {}
@@ -193,7 +223,7 @@ def run(tasks, cond, graph_dir, problems, chat, overrides=None, decoys=None, wor
         nodes = load_repo(f"{graph_dir}/{t['repo']}_{t['base_commit']}.json", overrides.get(t['id']))
         try: ans = localize(cond, problems[t['id']], nodes, chat)
         except Exception as e: ans = dict(ok=False, modules=[], functions=[], dropped=[], raw=f'ERROR {e}', read=[])
-        out = score(t, ans, decoys.get(t['id'])); out['raw'] = ans.get('raw'); out['cond'] = cond
+        out = score(t, ans, decoys.get(t['id'])); out['raw'] = ans.get('raw'); out['cond'] = cond; out['shown'] = ans.get('shown')
         return out
     with ThreadPoolExecutor(workers) as ex: rows = list(ex.map(one, tasks))
     if log: json.dump(rows, open(log, 'w'), indent=1)
