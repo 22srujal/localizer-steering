@@ -1,0 +1,90 @@
+[{"stream_name":"stderr","time":6.247687443,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.24773911,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.247742789,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.247744804,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.824600832,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.824638525,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.8246420279999995,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.824644327,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.156677301,"data":"Installing 41 wheels from /kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse...\n"}
+,{"stream_name":"stdout","time":67.235433942,"data":"Wheelhouse installation complete.\n"}
+,{"stream_name":"stdout","time":99.355880904,"data":"Data directory: /kaggle/input/competitions/gemma-4-developer-agent\n"}
+,{"stream_name":"stdout","time":99.355912021,"data":"Agent directory: /kaggle/working/sample_submission (model=gemma-4-31b-it-qat-w4a16-ct)\n"}
+,{"stream_name":"stdout","time":99.355916035,"data":"Loaded 129 tasks from tasks.jsonl\n"}
+,{"stream_name":"stdout","time":99.355918778,"data":"  - fastapi_15661 (fastapi/fastapi @ ee22a4b8)\n"}
+,{"stream_name":"stdout","time":99.35592144,"data":"  - fastapi_15588 (fastapi/fastapi @ cb83b83d)\n"}
+,{"stream_name":"stdout","time":99.355923989,"data":"  - fastapi_15589 (fastapi/fastapi @ 22b02e26)\n"}
+,{"stream_name":"stdout","time":99.355926644,"data":"  - fastapi_15030 (fastapi/fastapi @ 48d58ae3)\n"}
+,{"stream_name":"stdout","time":99.355929068,"data":"  - fastapi_14962 (fastapi/fastapi @ 1e78a36b)\n"}
+,{"stream_name":"stdout","time":101.532682433,"data":"Graph for fastapi/fastapi (fastapi_15661):\n"}
+,{"stream_name":"stdout","time":101.532715025,"data":"  Nodes: 4263, Edges: 2430\n"}
+,{"stream_name":"stdout","time":101.53271985,"data":"\n"}
+,{"stream_name":"stdout","time":101.532723735,"data":"Neighbors of 'custom_request_and_route.tutorial002_py310.ValidationErrorLoggingRoute.get_route_handler' (showing up to 5):\n"}
+,{"stream_name":"stdout","time":101.532728024,"data":"  - fastapi/fastapi;custom_request_and_route.tutorial002_py310.ValidationErrorLoggingRoute\n"}
+,{"stream_name":"stdout","time":101.53273216,"data":"  - fastapi/fastapi;fastapi.exceptions.HTTPException\n"}
+,{"stream_name":"stdout","time":101.532736078,"data":"  - fastapi/fastapi;fastapi.exceptions.RequestValidationError\n"}
+,{"stream_name":"stdout","time":101.532740145,"data":"\n"}
+,{"stream_name":"stdout","time":101.532743939,"data":"Top similar nodes to 'custom_request_and_route.tutorial002_py310.ValidationErrorLoggingRoute.get_route_handler':\n"}
+,{"stream_name":"stdout","time":101.532748111,"data":"  - custom_request_and_route.tutorial002_an_py310.ValidationErrorLoggingRoute.get_route_handler (similarity=1.0000)\n"}
+,{"stream_name":"stdout","time":101.532752219,"data":"  - fastapi.routing.APIRouter.__init__ (similarity=0.9996)\n"}
+,{"stream_name":"stdout","time":101.532756207,"data":"  - fastapi.applications.FastAPI.setup (similarity=0.9993)\n"}
+,{"stream_name":"stdout","time":101.532760084,"data":"  - custom_request_and_route.tutorial002_an_py310.ValidationErrorLoggingRoute (similarity=0.9991)\n"}
+,{"stream_name":"stdout","time":101.532777128,"data":"  - custom_request_and_route.tutorial002_py310.ValidationErrorLoggingRoute (similarity=0.9991)\n"}
+,{"stream_name":"stdout","time":101.532780489,"data":"\n"}
+,{"stream_name":"stdout","time":101.53278336,"data":"Induced subgraph over 4 focal nodes: 4 nodes, 6 edges\n"}
+,{"stream_name":"stdout","time":533.788095301,"data":"vLLM server started on http://127.0.0.1:8000/v1 (tp=4)\n"}
+,{"stream_name":"stdout","time":533.985400073,"data":"models served ['/kaggle/input/models/google/gemma-4/other/gemma-4-31b-it-qat-w4a16-ct/2', 'main_lora', 'tool_lora']\n"}
+,{"stream_name":"stdout","time":538.669785211,"data":"single call 4.66 s, 47 tokens\n"}
+,{"stream_name":"stdout","time":538.669813895,"data":"```json\n"}
+,{"stream_name":"stdout","time":538.669817415,"data":"[\n"}
+,{"stream_name":"stdout","time":538.669820093,"data":"  \"requests.sessions.Session.send\",\n"}
+,{"stream_name":"stdout","time":538.66982292,"data":"  \"requests.adapters.HTTPAdapter.send\",\n"}
+,{"stream_name":"stdout","time":538.66982566,"data":"  \"requests.utils.get_encoding_from_headers\"\n"}
+,{"stream_name":"stdout","time":538.669828259,"data":"]\n"}
+,{"stream_name":"stdout","time":538.669830824,"data":"```\n"}
+,{"stream_name":"stdout","time":541.722111624,"data":"16 calls, 8 parallel, 3.3s total, mean latency 1.62s, 17713 calls per hour\n"}
+,{"stream_name":"stdout","time":541.722141983,"data":"720 calls at 1x this size -\u003e about 0.04 GPU hours\n"}
+,{"stream_name":"stdout","time":541.722147096,"data":"720 calls at 3x this size -\u003e about 0.12 GPU hours\n"}
+,{"stream_name":"stdout","time":541.722151191,"data":"720 calls at 6x this size -\u003e about 0.24 GPU hours\n"}
+,{"stream_name":"stdout","time":541.744703214,"data":"written\n"}
+,{"stream_name":"stdout","time":570.48664571,"data":"A1    n=6 parsed=6/6 module@1=0.67 module@3=0.67 fn@1=0.33 fn@5=0.50 (module@3 CI 0.30-0.90) 29s\n"}
+,{"stream_name":"stdout","time":570.486684796,"data":"  sample raw output '```json\\n{\\n  \"modules\": [\\n    \"fastapi._compat.may_v1\"\\n  ],\\n  \"functions\": []\\n}\\n```' | read []\n"}
+,{"stream_name":"stdout","time":637.169034127,"data":"A1.5  n=6 parsed=6/6 module@1=0.67 module@3=0.67 fn@1=0.67 fn@5=0.67 (module@3 CI 0.30-0.90) 67s\n"}
+,{"stream_name":"stdout","time":637.169071113,"data":"  sample raw output '```json\\n{\\n  \"modules\": [\\n    \"fastapi._compat.may_v1\"\\n  ],\\n  \"functions\": []\\n}\\n```' | read []\n"}
+,{"stream_name":"stdout","time":696.076844563,"data":"A2    n=6 parsed=6/6 module@1=0.67 module@3=0.67 fn@1=0.50 fn@5=0.67 (module@3 CI 0.30-0.90) 59s\n"}
+,{"stream_name":"stdout","time":696.076889175,"data":"  sample raw output '```json\\n{\"modules\": [\"fastapi._compat.may_v1\"], \"functions\": [\"fastapi._compat.may_v1.BaseModel\", \"fastapi._compat.may_v1.FieldInfo\", \"fastapi._compat.may_v1.BaseConfig\"]}\\n```' | read ['fastapi._compat.may_v1']\n"}
+,{"stream_name":"stdout","time":895.69647327,"data":"A1    n=40 parsed=40/40 module@1=0.75 module@3=0.78 fn@1=0.47 fn@5=0.50 (module@3 CI 0.62-0.88)  [199s]\n"}
+,{"stream_name":"stdout","time":895.696509152,"data":"   fastapi n=17 parsed=17/17 module@1=0.65 module@3=0.71 fn@1=0.47 fn@5=0.47 (module@3 CI 0.47-0.87)\n"}
+,{"stream_name":"stdout","time":895.696513001,"data":"   rich  n=15 parsed=15/15 module@1=0.80 module@3=0.80 fn@1=0.33 fn@5=0.40 (module@3 CI 0.55-0.93)\n"}
+,{"stream_name":"stdout","time":895.696515834,"data":"   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)\n"}
+,{"stream_name":"stdout","time":1392.293826544,"data":"A1.5  n=40 parsed=40/40 module@1=0.85 module@3=0.88 fn@1=0.65 fn@5=0.70 (module@3 CI 0.74-0.95)  [497s]\n"}
+,{"stream_name":"stdout","time":1392.293878194,"data":"   fastapi n=17 parsed=17/17 module@1=0.76 module@3=0.82 fn@1=0.71 fn@5=0.71 (module@3 CI 0.59-0.94)\n"}
+,{"stream_name":"stdout","time":1392.293882162,"data":"   rich  n=15 parsed=15/15 module@1=0.93 module@3=0.93 fn@1=0.53 fn@5=0.67 (module@3 CI 0.70-0.99)\n"}
+,{"stream_name":"stdout","time":1392.293884452,"data":"   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)\n"}
+,{"stream_name":"stdout","time":2020.123508677,"data":"A2    n=40 parsed=40/40 module@1=0.80 module@3=0.80 fn@1=0.62 fn@5=0.70 (module@3 CI 0.65-0.90)  [628s]\n"}
+,{"stream_name":"stdout","time":2020.123543362,"data":"   fastapi n=17 parsed=17/17 module@1=0.82 module@3=0.82 fn@1=0.59 fn@5=0.76 (module@3 CI 0.59-0.94)\n"}
+,{"stream_name":"stdout","time":2020.12354729,"data":"   rich  n=15 parsed=15/15 module@1=0.73 module@3=0.73 fn@1=0.60 fn@5=0.60 (module@3 CI 0.48-0.89)\n"}
+,{"stream_name":"stdout","time":2020.123550273,"data":"   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)\n"}
+,{"stream_name":"stdout","time":2666.351796103,"data":"A2_v2 n=40 parsed=40/40 module@1=0.80 module@3=0.80 fn@1=0.65 fn@5=0.70 (module@3 CI 0.65-0.90)  [646s]\n"}
+,{"stream_name":"stdout","time":2666.351833966,"data":"   errors=0  gold function shown to A2: 28/40\n"}
+,{"stream_name":"stdout","time":2666.351837669,"data":"   fastapi n=17 parsed=17/17 module@1=0.82 module@3=0.82 fn@1=0.65 fn@5=0.76 (module@3 CI 0.59-0.94)\n"}
+,{"stream_name":"stdout","time":2666.351840566,"data":"   rich  n=15 parsed=15/15 module@1=0.73 module@3=0.73 fn@1=0.60 fn@5=0.60 (module@3 CI 0.48-0.89)\n"}
+,{"stream_name":"stdout","time":2666.351843289,"data":"   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)\n"}
+,{"stream_name":"stdout","time":2872.543434411,"data":"A2_v2 n=40 parsed=40/40 module@1=0.80 module@3=0.80 fn@1=0.65 fn@5=0.70 (module@3 CI 0.65-0.90)  [646s]\n"}
+,{"stream_name":"stdout","time":2872.543463782,"data":"   errors=0  gold function shown to A2: 28/40\n"}
+,{"stream_name":"stdout","time":2872.543467984,"data":"   fastapi n=17 parsed=17/17 module@1=0.82 module@3=0.82 fn@1=0.65 fn@5=0.76 (module@3 CI 0.59-0.94)\n"}
+,{"stream_name":"stdout","time":2872.543470987,"data":"   rich  n=15 parsed=15/15 module@1=0.73 module@3=0.73 fn@1=0.60 fn@5=0.60 (module@3 CI 0.48-0.89)\n"}
+,{"stream_name":"stdout","time":2872.543473737,"data":"   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)\n"}
+,{"stream_name":"stdout","time":2872.543476455,"data":"A1_rerun n=40 parsed=40/40 module@1=0.75 module@3=0.78 fn@1=0.47 fn@5=0.50 (module@3 CI 0.62-0.88)  [206s]\n"}
+,{"stream_name":"stdout","time":2872.543479378,"data":"   fastapi n=17 parsed=17/17 module@1=0.65 module@3=0.71 fn@1=0.47 fn@5=0.47 (module@3 CI 0.47-0.87)\n"}
+,{"stream_name":"stdout","time":2872.543481959,"data":"   rich  n=15 parsed=15/15 module@1=0.80 module@3=0.80 fn@1=0.33 fn@5=0.40 (module@3 CI 0.55-0.93)\n"}
+,{"stream_name":"stdout","time":2872.543484542,"data":"   requests n=8 parsed=8/8 module@1=0.88 module@3=0.88 fn@1=0.75 fn@5=0.75 (module@3 CI 0.53-0.98)\n"}
+,{"stream_name":"stderr","time":2877.430365595,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2877.430389465,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2877.57462604,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2877.574648252,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2878.300941755,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2878.644219267,"data":"[NbConvertApp] Writing 63046 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2881.277215553,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2882.158433642,"data":"[NbConvertApp] Writing 421218 bytes to __results__.html\n"}
+]
