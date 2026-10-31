@@ -1,1 +1,4 @@
-.Ds_store
+.Ds_Store
+.pytest_cache/
+_pycache_/
+sample_submission/
