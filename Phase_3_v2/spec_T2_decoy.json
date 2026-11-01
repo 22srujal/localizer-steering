@@ -1,0 +1,489 @@
+{
+ "decoys": {
+  "fastapi_14583": "fastapi.utils.generate_operation_id_for_path",
+  "fastapi_14349": "fastapi.utils.is_body_allowed_for_status_code",
+  "fastapi_9753": "fastapi.background.BackgroundTasks.add_task",
+  "fastapi_14246": "fastapi.encoders.decimal_encoder",
+  "fastapi_15589": "fastapi.utils.get_value_or_default",
+  "fastapi_14356": "fastapi.security.api_key.APIKeyBase.make_not_authenticated_error",
+  "fastapi_14372": "fastapi.background.BackgroundTasks.add_task",
+  "fastapi_14962": "fastapi.utils.create_model_field",
+  "fastapi_14794": "fastapi.background.BackgroundTasks.add_task",
+  "fastapi_14258": "fastapi.background.BackgroundTasks.add_task",
+  "fastapi_14430": "fastapi.utils.is_body_allowed_for_status_code",
+  "fastapi_5624": "fastapi.openapi.utils.get_openapi_security_definitions",
+  "fastapi_13207": "fastapi.openapi.utils.get_openapi_operation_request_body",
+  "fastapi_14616": "fastapi.background.BackgroundTasks.add_task",
+  "fastapi_14479": "fastapi.exceptions.ValidationException._format_endpoint_context",
+  "fastapi_14512": "fastapi.background.BackgroundTasks.add_task",
+  "fastapi_13713": "fastapi.background.BackgroundTasks.add_task",
+  "rich_3063": "rich._fileno.get_fileno",
+  "rich_3777": "rich._fileno.get_fileno",
+  "rich_4079": "rich.table.Table.padding",
+  "rich_3905": "rich.traceback.Traceback._guess_lexer",
+  "rich_3472": "rich.box.Box.substitute",
+  "rich_3782": "rich.traceback.Traceback._render_syntax_error",
+  "rich_3934": "rich.live._RefreshThread.run",
+  "rich_3469": "rich.align.Align.generate_segments",
+  "rich_3471": "rich.table.Table._measure_column",
+  "rich_3506": "rich.cells.chop_cells",
+  "rich_3935": "rich.panel.Panel.fit",
+  "rich_3052": "rich.tree.Tree.add",
+  "rich_3470": "rich.logging.RichHandler.get_level_text",
+  "rich_4075": "rich.live.Live.refresh",
+  "rich_3718": "rich.box.Box.substitute",
+  "requests_6644": "requests.sessions.SessionRedirectMixin.should_strip_auth",
+  "requests_6589": "requests.adapters.HTTPAdapter.add_headers",
+  "requests_7205": "requests.adapters.HTTPAdapter.proxy_headers",
+  "requests_7433": "requests.api.put",
+  "requests_7502": "requests.compat._resolve_char_detection",
+  "requests_7505": "requests.adapters.HTTPAdapter.proxy_headers",
+  "requests_7328": "requests.adapters.BaseAdapter.send",
+  "requests_7309": "requests.sessions.SessionRedirectMixin.should_strip_auth"
+ },
+ "trap_ids": {
+  "fastapi_14583": [
+   "fastapi.utils.generate_operation_id_for_path"
+  ],
+  "fastapi_14349": [
+   "fastapi.utils.is_body_allowed_for_status_code"
+  ],
+  "fastapi_9753": [
+   "fastapi.background.BackgroundTasks.add_task"
+  ],
+  "fastapi_14246": [
+   "fastapi.encoders.decimal_encoder"
+  ],
+  "fastapi_15589": [
+   "fastapi.utils.get_value_or_default"
+  ],
+  "fastapi_14356": [
+   "fastapi.security.api_key.APIKeyBase.make_not_authenticated_error"
+  ],
+  "fastapi_14372": [
+   "fastapi.background.BackgroundTasks.add_task"
+  ],
+  "fastapi_14962": [
+   "fastapi.utils.create_model_field"
+  ],
+  "fastapi_14794": [
+   "fastapi.background.BackgroundTasks.add_task"
+  ],
+  "fastapi_14258": [
+   "fastapi.background.BackgroundTasks.add_task"
+  ],
+  "fastapi_14430": [
+   "fastapi.utils.is_body_allowed_for_status_code"
+  ],
+  "fastapi_5624": [
+   "fastapi.openapi.utils.get_openapi_security_definitions"
+  ],
+  "fastapi_13207": [
+   "fastapi.openapi.utils.get_openapi_operation_request_body"
+  ],
+  "fastapi_14616": [
+   "fastapi.background.BackgroundTasks.add_task"
+  ],
+  "fastapi_14479": [
+   "fastapi.exceptions.ValidationException._format_endpoint_context"
+  ],
+  "fastapi_14512": [
+   "fastapi.background.BackgroundTasks.add_task"
+  ],
+  "fastapi_13713": [
+   "fastapi.background.BackgroundTasks.add_task"
+  ],
+  "rich_3063": [
+   "rich._fileno.get_fileno"
+  ],
+  "rich_3777": [
+   "rich._fileno.get_fileno"
+  ],
+  "rich_4079": [
+   "rich.table.Table.padding"
+  ],
+  "rich_3905": [
+   "rich.traceback.Traceback._guess_lexer"
+  ],
+  "rich_3472": [
+   "rich.box.Box.substitute"
+  ],
+  "rich_3782": [
+   "rich.traceback.Traceback._render_syntax_error"
+  ],
+  "rich_3934": [
+   "rich.live._RefreshThread.run"
+  ],
+  "rich_3469": [
+   "rich.align.Align.generate_segments"
+  ],
+  "rich_3471": [
+   "rich.table.Table._measure_column"
+  ],
+  "rich_3506": [
+   "rich.cells.chop_cells"
+  ],
+  "rich_3935": [
+   "rich.panel.Panel.fit"
+  ],
+  "rich_3052": [
+   "rich.tree.Tree.add"
+  ],
+  "rich_3470": [
+   "rich.logging.RichHandler.get_level_text"
+  ],
+  "rich_4075": [
+   "rich.live.Live.refresh"
+  ],
+  "rich_3718": [
+   "rich.box.Box.substitute"
+  ],
+  "requests_6644": [
+   "requests.sessions.SessionRedirectMixin.should_strip_auth"
+  ],
+  "requests_6589": [
+   "requests.adapters.HTTPAdapter.add_headers"
+  ],
+  "requests_7205": [
+   "requests.adapters.HTTPAdapter.proxy_headers"
+  ],
+  "requests_7433": [
+   "requests.api.put"
+  ],
+  "requests_7502": [
+   "requests.compat._resolve_char_detection"
+  ],
+  "requests_7505": [
+   "requests.adapters.HTTPAdapter.proxy_headers"
+  ],
+  "requests_7328": [
+   "requests.adapters.BaseAdapter.send"
+  ],
+  "requests_7309": [
+   "requests.sessions.SessionRedirectMixin.should_strip_auth"
+  ]
+ },
+ "meta": [
+  {
+   "id": "fastapi_14583",
+   "decoy": "fastapi.utils.generate_operation_id_for_path",
+   "hops": null,
+   "host": "fastapi.utils.generate_operation_id_for_path",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14349",
+   "decoy": "fastapi.utils.is_body_allowed_for_status_code",
+   "hops": null,
+   "host": "fastapi.utils.is_body_allowed_for_status_code",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_9753",
+   "decoy": "fastapi.background.BackgroundTasks.add_task",
+   "hops": null,
+   "host": "fastapi.background.BackgroundTasks.add_task",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14246",
+   "decoy": "fastapi.encoders.decimal_encoder",
+   "hops": null,
+   "host": "fastapi.encoders.decimal_encoder",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_15589",
+   "decoy": "fastapi.utils.get_value_or_default",
+   "hops": 5,
+   "host": "fastapi.utils.get_value_or_default",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14356",
+   "decoy": "fastapi.security.api_key.APIKeyBase.make_not_authenticated_error",
+   "hops": 10,
+   "host": "fastapi.security.api_key.APIKeyBase.make_not_authenticated_error",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14372",
+   "decoy": "fastapi.background.BackgroundTasks.add_task",
+   "hops": null,
+   "host": "fastapi.background.BackgroundTasks.add_task",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14962",
+   "decoy": "fastapi.utils.create_model_field",
+   "hops": 3,
+   "host": "fastapi.utils.create_model_field",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14794",
+   "decoy": "fastapi.background.BackgroundTasks.add_task",
+   "hops": null,
+   "host": "fastapi.background.BackgroundTasks.add_task",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14258",
+   "decoy": "fastapi.background.BackgroundTasks.add_task",
+   "hops": null,
+   "host": "fastapi.background.BackgroundTasks.add_task",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14430",
+   "decoy": "fastapi.utils.is_body_allowed_for_status_code",
+   "hops": 5,
+   "host": "fastapi.utils.is_body_allowed_for_status_code",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_5624",
+   "decoy": "fastapi.openapi.utils.get_openapi_security_definitions",
+   "hops": 4,
+   "host": "fastapi.openapi.utils.get_openapi_security_definitions",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_13207",
+   "decoy": "fastapi.openapi.utils.get_openapi_operation_request_body",
+   "hops": 6,
+   "host": "fastapi.openapi.utils.get_openapi_operation_request_body",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14616",
+   "decoy": "fastapi.background.BackgroundTasks.add_task",
+   "hops": null,
+   "host": "fastapi.background.BackgroundTasks.add_task",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14479",
+   "decoy": "fastapi.exceptions.ValidationException._format_endpoint_context",
+   "hops": 7,
+   "host": "fastapi.exceptions.ValidationException._format_endpoint_context",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_14512",
+   "decoy": "fastapi.background.BackgroundTasks.add_task",
+   "hops": null,
+   "host": "fastapi.background.BackgroundTasks.add_task",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "fastapi_13713",
+   "decoy": "fastapi.background.BackgroundTasks.add_task",
+   "hops": null,
+   "host": "fastapi.background.BackgroundTasks.add_task",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3063",
+   "decoy": "rich._fileno.get_fileno",
+   "hops": 4,
+   "host": "rich._fileno.get_fileno",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3777",
+   "decoy": "rich._fileno.get_fileno",
+   "hops": 3,
+   "host": "rich._fileno.get_fileno",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_4079",
+   "decoy": "rich.table.Table.padding",
+   "hops": 4,
+   "host": "rich.table.Table.padding",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3905",
+   "decoy": "rich.traceback.Traceback._guess_lexer",
+   "hops": 6,
+   "host": "rich.traceback.Traceback._guess_lexer",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3472",
+   "decoy": "rich.box.Box.substitute",
+   "hops": 4,
+   "host": "rich.box.Box.substitute",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3782",
+   "decoy": "rich.traceback.Traceback._render_syntax_error",
+   "hops": 3,
+   "host": "rich.traceback.Traceback._render_syntax_error",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3934",
+   "decoy": "rich.live._RefreshThread.run",
+   "hops": 4,
+   "host": "rich.live._RefreshThread.run",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3469",
+   "decoy": "rich.align.Align.generate_segments",
+   "hops": 3,
+   "host": "rich.align.Align.generate_segments",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3471",
+   "decoy": "rich.table.Table._measure_column",
+   "hops": 4,
+   "host": "rich.table.Table._measure_column",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3506",
+   "decoy": "rich.cells.chop_cells",
+   "hops": 5,
+   "host": "rich.cells.chop_cells",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3935",
+   "decoy": "rich.panel.Panel.fit",
+   "hops": 4,
+   "host": "rich.panel.Panel.fit",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3052",
+   "decoy": "rich.tree.Tree.add",
+   "hops": 5,
+   "host": "rich.tree.Tree.add",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3470",
+   "decoy": "rich.logging.RichHandler.get_level_text",
+   "hops": 4,
+   "host": "rich.logging.RichHandler.get_level_text",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_4075",
+   "decoy": "rich.live.Live.refresh",
+   "hops": 5,
+   "host": "rich.live.Live.refresh",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "rich_3718",
+   "decoy": "rich.box.Box.substitute",
+   "hops": 6,
+   "host": "rich.box.Box.substitute",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_6644",
+   "decoy": "requests.sessions.SessionRedirectMixin.should_strip_auth",
+   "hops": 5,
+   "host": "requests.sessions.SessionRedirectMixin.should_strip_auth",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_6589",
+   "decoy": "requests.adapters.HTTPAdapter.add_headers",
+   "hops": 7,
+   "host": "requests.adapters.HTTPAdapter.add_headers",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_7205",
+   "decoy": "requests.adapters.HTTPAdapter.proxy_headers",
+   "hops": 5,
+   "host": "requests.adapters.HTTPAdapter.proxy_headers",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_7433",
+   "decoy": "requests.api.put",
+   "hops": 5,
+   "host": "requests.api.put",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_7502",
+   "decoy": "requests.compat._resolve_char_detection",
+   "hops": null,
+   "host": "requests.compat._resolve_char_detection",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_7505",
+   "decoy": "requests.adapters.HTTPAdapter.proxy_headers",
+   "hops": 4,
+   "host": "requests.adapters.HTTPAdapter.proxy_headers",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_7328",
+   "decoy": "requests.adapters.BaseAdapter.send",
+   "hops": 5,
+   "host": "requests.adapters.BaseAdapter.send",
+   "trap": "T2",
+   "placement": "decoy"
+  },
+  {
+   "id": "requests_7309",
+   "decoy": "requests.sessions.SessionRedirectMixin.should_strip_auth",
+   "hops": 6,
+   "host": "requests.sessions.SessionRedirectMixin.should_strip_auth",
+   "trap": "T2",
+   "placement": "decoy"
+  }
+ ],
+ "skipped": []
+}

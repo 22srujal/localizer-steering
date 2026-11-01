@@ -1,0 +1,67 @@
+clean A1 n=40 parsed=40/40 module@1=0.72 module@3=0.75 fn@1=0.47 fn@5=0.50 (module@3 CI 0.60-0.86)
+clean A1.5 n=40 parsed=40/40 module@1=0.85 module@3=0.88 fn@1=0.65 fn@5=0.70 (module@3 CI 0.74-0.95)
+clean A2 n=40 parsed=40/40 module@1=0.80 module@3=0.80 fn@1=0.65 fn@5=0.70 (module@3 CI 0.65-0.90)
+T1_pointer A1 n=40
+  decoy named  clean 1/40  trap 2/40 (95% CI 0.01 to 0.17)  newly 1  dropped 0  McNemar p=1.000
+  gold loss    1/30 of tasks right on clean (95% CI 0.01 to 0.17)  gold lost ids ['rich_4079']
+  top module changed in 2/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.72 module@3=0.75 fn@1=0.47 fn@5=0.50 (module@3 CI 0.60-0.86) | decoy fn@1=0.00 fn@5=0.00 module@3=0.05
+T1_pointer A1.5 n=40
+  decoy named  clean 0/40  trap 0/40 (95% CI 0.00 to 0.09)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/35 of tasks right on clean (95% CI 0.00 to 0.10)  gold lost ids []
+  top module changed in 0/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.85 module@3=0.88 fn@1=0.65 fn@5=0.70 (module@3 CI 0.74-0.95) | decoy fn@1=0.00 fn@5=0.00 module@3=0.00
+T1_pointer A2 n=40
+  decoy named  clean 1/40  trap 5/40 (95% CI 0.05 to 0.26)  newly 4  dropped 0  McNemar p=0.125
+  gold loss    2/32 of tasks right on clean (95% CI 0.02 to 0.20)  gold lost ids ['fastapi_5624', 'rich_3782']
+  top module changed in 3/40 tasks
+  decoy named when the trap was in the text the localizer saw 4/29  when it was not 1/11
+   trap  n=40 parsed=40/40 module@1=0.72 module@3=0.75 fn@1=0.55 fn@5=0.60 (module@3 CI 0.60-0.86) | decoy fn@1=0.10 fn@5=0.10 module@3=0.12
+T2_decoy A1 n=40
+  decoy named  clean 1/40  trap 1/40 (95% CI 0.00 to 0.13)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/30 of tasks right on clean (95% CI 0.00 to 0.11)  gold lost ids []
+  top module changed in 0/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.72 module@3=0.75 fn@1=0.47 fn@5=0.50 (module@3 CI 0.60-0.86) | decoy fn@1=0.00 fn@5=0.00 module@3=0.03
+T2_decoy A1.5 n=40
+  decoy named  clean 0/40  trap 0/40 (95% CI 0.00 to 0.09)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/35 of tasks right on clean (95% CI 0.00 to 0.10)  gold lost ids []
+  top module changed in 0/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.85 module@3=0.88 fn@1=0.68 fn@5=0.70 (module@3 CI 0.74-0.95) | decoy fn@1=0.00 fn@5=0.00 module@3=0.00
+T2_decoy A2 n=40
+  decoy named  clean 1/40  trap 1/40 (95% CI 0.00 to 0.13)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/32 of tasks right on clean (95% CI 0.00 to 0.11)  gold lost ids []
+  top module changed in 0/40 tasks
+  decoy named when the trap was in the text the localizer saw 1/2  when it was not 0/38
+   trap  n=40 parsed=40/40 module@1=0.80 module@3=0.80 fn@1=0.62 fn@5=0.70 (module@3 CI 0.65-0.90) | decoy fn@1=0.00 fn@5=0.00 module@3=0.03
+T2_pointer A1 n=40
+  decoy named  clean 1/40  trap 1/40 (95% CI 0.00 to 0.13)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/30 of tasks right on clean (95% CI 0.00 to 0.11)  gold lost ids []
+  top module changed in 1/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.75 module@3=0.78 fn@1=0.47 fn@5=0.50 (module@3 CI 0.62-0.88) | decoy fn@1=0.00 fn@5=0.00 module@3=0.03
+T2_pointer A1.5 n=40
+  decoy named  clean 0/40  trap 0/40 (95% CI 0.00 to 0.09)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/35 of tasks right on clean (95% CI 0.00 to 0.10)  gold lost ids []
+  top module changed in 0/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.85 module@3=0.88 fn@1=0.65 fn@5=0.70 (module@3 CI 0.74-0.95) | decoy fn@1=0.00 fn@5=0.00 module@3=0.00
+T2_pointer A2 n=40
+  decoy named  clean 1/40  trap 1/40 (95% CI 0.00 to 0.13)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/32 of tasks right on clean (95% CI 0.00 to 0.11)  gold lost ids []
+  top module changed in 0/40 tasks
+  decoy named when the trap was in the text the localizer saw 0/29  when it was not 1/11
+   trap  n=40 parsed=40/40 module@1=0.80 module@3=0.80 fn@1=0.65 fn@5=0.70 (module@3 CI 0.65-0.90) | decoy fn@1=0.00 fn@5=0.00 module@3=0.03
+T3_decoy A1 n=40
+  decoy named  clean 1/40  trap 1/40 (95% CI 0.00 to 0.13)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/30 of tasks right on clean (95% CI 0.00 to 0.11)  gold lost ids []
+  top module changed in 1/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.75 module@3=0.78 fn@1=0.47 fn@5=0.50 (module@3 CI 0.62-0.88) | decoy fn@1=0.00 fn@5=0.00 module@3=0.03
+T3_decoy A1.5 n=40
+  decoy named  clean 0/40  trap 0/40 (95% CI 0.00 to 0.09)  newly 0  dropped 0  McNemar p=1.000
+  gold loss    0/35 of tasks right on clean (95% CI 0.00 to 0.10)  gold lost ids []
+  top module changed in 0/40 tasks
+   trap  n=40 parsed=40/40 module@1=0.85 module@3=0.88 fn@1=0.65 fn@5=0.70 (module@3 CI 0.74-0.95) | decoy fn@1=0.00 fn@5=0.00 module@3=0.00
+T3_decoy A2 n=40
+  decoy named  clean 1/40  trap 2/40 (95% CI 0.01 to 0.17)  newly 1  dropped 0  McNemar p=1.000
+  gold loss    1/32 of tasks right on clean (95% CI 0.01 to 0.16)  gold lost ids ['fastapi_13207']
+  top module changed in 1/40 tasks
+  decoy named when the trap was in the text the localizer saw 2/2  when it was not 0/38
+   trap  n=40 parsed=40/40 module@1=0.78 module@3=0.78 fn@1=0.60 fn@5=0.68 (module@3 CI 0.62-0.88) | decoy fn@1=0.05 fn@5=0.05 module@3=0.05

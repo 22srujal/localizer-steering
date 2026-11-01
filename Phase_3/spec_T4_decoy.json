@@ -1,0 +1,489 @@
+{
+ "decoys": {
+  "fastapi_14583": "fastapi.utils.handle_deprecation_warnings_pydantic",
+  "fastapi_14349": "fastapi.utils.handle_handling_json_schema",
+  "fastapi_9753": "fastapi.background.handle_dependables_functools_partial",
+  "fastapi_14246": "fastapi.encoders.handle_separation_schemas_nested",
+  "fastapi_15589": "fastapi.utils.handle_accept_underscore_headers",
+  "fastapi_14356": "fastapi.security.api_key.handle_parsing_extra_non",
+  "fastapi_14372": "fastapi.background.handle_result_depends_security",
+  "fastapi_14962": "fastapi.utils.handle_serialize_json_response",
+  "fastapi_14794": "fastapi.background.handle_response_type_hint",
+  "fastapi_14258": "fastapi.background.handle_show_clear_error",
+  "fastapi_14430": "fastapi.utils.handle_optional_sequence_handling",
+  "fastapi_5624": "fastapi.openapi.utils.handle_hierarchical_security_scope",
+  "fastapi_13207": "fastapi.openapi.utils.handle_openapi_schema_computed",
+  "fastapi_14616": "fastapi.background.handle_json_list_str",
+  "fastapi_14479": "fastapi.exceptions.handle_improve_error_message",
+  "fastapi_14512": "fastapi.background.handle_tagged_union_discriminator",
+  "fastapi_13713": "fastapi.background.handle_openapi_external_docs",
+  "rich_3063": "rich._fileno.handle_escaping_trailing_backslash",
+  "rich_3777": "rich._fileno.handle_tty_interactive_env",
+  "rich_4079": "rich.table.handle_inline_table_code",
+  "rich_3905": "rich.traceback.handle_progress",
+  "rich_3472": "rich.box.handle_missing_field_dataclass",
+  "rich_3782": "rich.traceback.handle_syntax_padding",
+  "rich_3934": "rich.live._RefreshThread.handle_empty_live",
+  "rich_3469": "rich.align.handle_superfluous_space",
+  "rich_3471": "rich.table.handle_fixed_exception_append",
+  "rich_3506": "rich.cells.handle_split_cells",
+  "rich_3935": "rich.panel.handle_padding_width",
+  "rich_3052": "rich.tree.handle_case_insensitive_prompt",
+  "rich_3470": "rich.logging.handle_record_capture",
+  "rich_4075": "rich.live.handle_empty_end",
+  "rich_3718": "rich.box.handle_panel_title_missing",
+  "requests_6644": "requests.sessions.handle_trim_excess_leading",
+  "requests_6589": "requests.adapters.handle_enhance_super_len",
+  "requests_7205": "requests.adapters.handle_empty_netrc_entry",
+  "requests_7433": "requests.api.handle_prepare_body_stream",
+  "requests_7502": "requests.compat.handle_encode_files_detection",
+  "requests_7505": "requests.adapters.handle_hasattr_checks_remaining",
+  "requests_7328": "requests.adapters.handle_prevent_response_self",
+  "requests_7309": "requests.sessions.handle_malformed_value_parsing"
+ },
+ "trap_ids": {
+  "fastapi_14583": [
+   "fastapi.utils.handle_deprecation_warnings_pydantic"
+  ],
+  "fastapi_14349": [
+   "fastapi.utils.handle_handling_json_schema"
+  ],
+  "fastapi_9753": [
+   "fastapi.background.handle_dependables_functools_partial"
+  ],
+  "fastapi_14246": [
+   "fastapi.encoders.handle_separation_schemas_nested"
+  ],
+  "fastapi_15589": [
+   "fastapi.utils.handle_accept_underscore_headers"
+  ],
+  "fastapi_14356": [
+   "fastapi.security.api_key.handle_parsing_extra_non"
+  ],
+  "fastapi_14372": [
+   "fastapi.background.handle_result_depends_security"
+  ],
+  "fastapi_14962": [
+   "fastapi.utils.handle_serialize_json_response"
+  ],
+  "fastapi_14794": [
+   "fastapi.background.handle_response_type_hint"
+  ],
+  "fastapi_14258": [
+   "fastapi.background.handle_show_clear_error"
+  ],
+  "fastapi_14430": [
+   "fastapi.utils.handle_optional_sequence_handling"
+  ],
+  "fastapi_5624": [
+   "fastapi.openapi.utils.handle_hierarchical_security_scope"
+  ],
+  "fastapi_13207": [
+   "fastapi.openapi.utils.handle_openapi_schema_computed"
+  ],
+  "fastapi_14616": [
+   "fastapi.background.handle_json_list_str"
+  ],
+  "fastapi_14479": [
+   "fastapi.exceptions.handle_improve_error_message"
+  ],
+  "fastapi_14512": [
+   "fastapi.background.handle_tagged_union_discriminator"
+  ],
+  "fastapi_13713": [
+   "fastapi.background.handle_openapi_external_docs"
+  ],
+  "rich_3063": [
+   "rich._fileno.handle_escaping_trailing_backslash"
+  ],
+  "rich_3777": [
+   "rich._fileno.handle_tty_interactive_env"
+  ],
+  "rich_4079": [
+   "rich.table.handle_inline_table_code"
+  ],
+  "rich_3905": [
+   "rich.traceback.handle_progress"
+  ],
+  "rich_3472": [
+   "rich.box.handle_missing_field_dataclass"
+  ],
+  "rich_3782": [
+   "rich.traceback.handle_syntax_padding"
+  ],
+  "rich_3934": [
+   "rich.live._RefreshThread.handle_empty_live"
+  ],
+  "rich_3469": [
+   "rich.align.handle_superfluous_space"
+  ],
+  "rich_3471": [
+   "rich.table.handle_fixed_exception_append"
+  ],
+  "rich_3506": [
+   "rich.cells.handle_split_cells"
+  ],
+  "rich_3935": [
+   "rich.panel.handle_padding_width"
+  ],
+  "rich_3052": [
+   "rich.tree.handle_case_insensitive_prompt"
+  ],
+  "rich_3470": [
+   "rich.logging.handle_record_capture"
+  ],
+  "rich_4075": [
+   "rich.live.handle_empty_end"
+  ],
+  "rich_3718": [
+   "rich.box.handle_panel_title_missing"
+  ],
+  "requests_6644": [
+   "requests.sessions.handle_trim_excess_leading"
+  ],
+  "requests_6589": [
+   "requests.adapters.handle_enhance_super_len"
+  ],
+  "requests_7205": [
+   "requests.adapters.handle_empty_netrc_entry"
+  ],
+  "requests_7433": [
+   "requests.api.handle_prepare_body_stream"
+  ],
+  "requests_7502": [
+   "requests.compat.handle_encode_files_detection"
+  ],
+  "requests_7505": [
+   "requests.adapters.handle_hasattr_checks_remaining"
+  ],
+  "requests_7328": [
+   "requests.adapters.handle_prevent_response_self"
+  ],
+  "requests_7309": [
+   "requests.sessions.handle_malformed_value_parsing"
+  ]
+ },
+ "meta": [
+  {
+   "id": "fastapi_14583",
+   "decoy": "fastapi.utils.handle_deprecation_warnings_pydantic",
+   "hops": null,
+   "host": "fastapi.utils.handle_deprecation_warnings_pydantic",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14349",
+   "decoy": "fastapi.utils.handle_handling_json_schema",
+   "hops": null,
+   "host": "fastapi.utils.handle_handling_json_schema",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_9753",
+   "decoy": "fastapi.background.handle_dependables_functools_partial",
+   "hops": null,
+   "host": "fastapi.background.handle_dependables_functools_partial",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14246",
+   "decoy": "fastapi.encoders.handle_separation_schemas_nested",
+   "hops": null,
+   "host": "fastapi.encoders.handle_separation_schemas_nested",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_15589",
+   "decoy": "fastapi.utils.handle_accept_underscore_headers",
+   "hops": 5,
+   "host": "fastapi.utils.handle_accept_underscore_headers",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14356",
+   "decoy": "fastapi.security.api_key.handle_parsing_extra_non",
+   "hops": 10,
+   "host": "fastapi.security.api_key.handle_parsing_extra_non",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14372",
+   "decoy": "fastapi.background.handle_result_depends_security",
+   "hops": null,
+   "host": "fastapi.background.handle_result_depends_security",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14962",
+   "decoy": "fastapi.utils.handle_serialize_json_response",
+   "hops": 3,
+   "host": "fastapi.utils.handle_serialize_json_response",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14794",
+   "decoy": "fastapi.background.handle_response_type_hint",
+   "hops": null,
+   "host": "fastapi.background.handle_response_type_hint",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14258",
+   "decoy": "fastapi.background.handle_show_clear_error",
+   "hops": null,
+   "host": "fastapi.background.handle_show_clear_error",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14430",
+   "decoy": "fastapi.utils.handle_optional_sequence_handling",
+   "hops": 5,
+   "host": "fastapi.utils.handle_optional_sequence_handling",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_5624",
+   "decoy": "fastapi.openapi.utils.handle_hierarchical_security_scope",
+   "hops": 4,
+   "host": "fastapi.openapi.utils.handle_hierarchical_security_scope",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_13207",
+   "decoy": "fastapi.openapi.utils.handle_openapi_schema_computed",
+   "hops": 6,
+   "host": "fastapi.openapi.utils.handle_openapi_schema_computed",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14616",
+   "decoy": "fastapi.background.handle_json_list_str",
+   "hops": null,
+   "host": "fastapi.background.handle_json_list_str",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14479",
+   "decoy": "fastapi.exceptions.handle_improve_error_message",
+   "hops": 7,
+   "host": "fastapi.exceptions.handle_improve_error_message",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_14512",
+   "decoy": "fastapi.background.handle_tagged_union_discriminator",
+   "hops": null,
+   "host": "fastapi.background.handle_tagged_union_discriminator",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "fastapi_13713",
+   "decoy": "fastapi.background.handle_openapi_external_docs",
+   "hops": null,
+   "host": "fastapi.background.handle_openapi_external_docs",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3063",
+   "decoy": "rich._fileno.handle_escaping_trailing_backslash",
+   "hops": 4,
+   "host": "rich._fileno.handle_escaping_trailing_backslash",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3777",
+   "decoy": "rich._fileno.handle_tty_interactive_env",
+   "hops": 3,
+   "host": "rich._fileno.handle_tty_interactive_env",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_4079",
+   "decoy": "rich.table.handle_inline_table_code",
+   "hops": 4,
+   "host": "rich.table.handle_inline_table_code",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3905",
+   "decoy": "rich.traceback.handle_progress",
+   "hops": 6,
+   "host": "rich.traceback.handle_progress",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3472",
+   "decoy": "rich.box.handle_missing_field_dataclass",
+   "hops": 4,
+   "host": "rich.box.handle_missing_field_dataclass",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3782",
+   "decoy": "rich.traceback.handle_syntax_padding",
+   "hops": 3,
+   "host": "rich.traceback.handle_syntax_padding",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3934",
+   "decoy": "rich.live._RefreshThread.handle_empty_live",
+   "hops": 4,
+   "host": "rich.live._RefreshThread.handle_empty_live",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3469",
+   "decoy": "rich.align.handle_superfluous_space",
+   "hops": 3,
+   "host": "rich.align.handle_superfluous_space",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3471",
+   "decoy": "rich.table.handle_fixed_exception_append",
+   "hops": 4,
+   "host": "rich.table.handle_fixed_exception_append",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3506",
+   "decoy": "rich.cells.handle_split_cells",
+   "hops": 5,
+   "host": "rich.cells.handle_split_cells",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3935",
+   "decoy": "rich.panel.handle_padding_width",
+   "hops": 4,
+   "host": "rich.panel.handle_padding_width",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3052",
+   "decoy": "rich.tree.handle_case_insensitive_prompt",
+   "hops": 5,
+   "host": "rich.tree.handle_case_insensitive_prompt",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3470",
+   "decoy": "rich.logging.handle_record_capture",
+   "hops": 4,
+   "host": "rich.logging.handle_record_capture",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_4075",
+   "decoy": "rich.live.handle_empty_end",
+   "hops": 5,
+   "host": "rich.live.handle_empty_end",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "rich_3718",
+   "decoy": "rich.box.handle_panel_title_missing",
+   "hops": 6,
+   "host": "rich.box.handle_panel_title_missing",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_6644",
+   "decoy": "requests.sessions.handle_trim_excess_leading",
+   "hops": 5,
+   "host": "requests.sessions.handle_trim_excess_leading",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_6589",
+   "decoy": "requests.adapters.handle_enhance_super_len",
+   "hops": 7,
+   "host": "requests.adapters.handle_enhance_super_len",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_7205",
+   "decoy": "requests.adapters.handle_empty_netrc_entry",
+   "hops": 5,
+   "host": "requests.adapters.handle_empty_netrc_entry",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_7433",
+   "decoy": "requests.api.handle_prepare_body_stream",
+   "hops": 5,
+   "host": "requests.api.handle_prepare_body_stream",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_7502",
+   "decoy": "requests.compat.handle_encode_files_detection",
+   "hops": null,
+   "host": "requests.compat.handle_encode_files_detection",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_7505",
+   "decoy": "requests.adapters.handle_hasattr_checks_remaining",
+   "hops": 4,
+   "host": "requests.adapters.handle_hasattr_checks_remaining",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_7328",
+   "decoy": "requests.adapters.handle_prevent_response_self",
+   "hops": 5,
+   "host": "requests.adapters.handle_prevent_response_self",
+   "trap": "T4",
+   "placement": "bait"
+  },
+  {
+   "id": "requests_7309",
+   "decoy": "requests.sessions.handle_malformed_value_parsing",
+   "hops": 6,
+   "host": "requests.sessions.handle_malformed_value_parsing",
+   "trap": "T4",
+   "placement": "bait"
+  }
+ ],
+ "skipped": []
+}

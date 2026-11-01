@@ -1,4 +1,4 @@
 .Ds_Store
 .pytest_cache/
-_pycache_/
+__pycache__/
 sample_submission/
