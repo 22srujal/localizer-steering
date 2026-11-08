@@ -21,7 +21,7 @@ def is_test(nid):
 def module_of_node(nid):
     p = norm_id(nid).split('.')
     for i, c in enumerate(p):
-        if i > 0 and c[:1].isupper(): return '.'.join(p[:i])
+        if i > 0 and c.lstrip('_')[:1].isupper(): return '.'.join(p[:i])   # fixed, _RefreshThread is a class, not a module
     return '.'.join(p[:-1]) if len(p) > 1 else nid
 
 def load_repo(graph_path, overrides=None):
