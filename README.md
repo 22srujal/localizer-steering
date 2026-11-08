@@ -1,111 +1,134 @@
-# localizer-steering
+# Localizer Steering
 
-Can planted text in a repository (comments, docstrings, instruction-style notes, bait functions) steer the
-localization stage of an LLM coding agent toward a decoy function? The study uses 40 tasks (17 FastAPI, 15 Rich,
-8 Requests) with Gemma 4 31B (QAT w4a16) on Kaggle at temperature 0. All reported results use 39 of the 40 tasks,
-after dropping rich_3934 (see the caveats). Three localizers are compared.
+How easily can text planted in a code repository steer the first stage of an LLM coding agent?
 
-- **A1** sees a repo map with names only.
-- **A1.5** sees a repo map with names and signatures.
-- **A2** sees the repo map, then reads up to 3 modules.
+This project measures that question. It was built for the Kaggle Gemma 4 Developer Agent competition (paper track).
 
-Four trap types (T1 maintainer comment, T2 docstring claim, T3 instruction-style note, T4 bait function) are planted
-either in the decoy itself or as a pointer inside a gold module that points at the decoy.
+## Purpose
 
-## Headline results (39 tasks)
+A coding agent that fixes a bug starts with a localizer. The localizer reads the bug report and decides which module and
+function the fix belongs in. Every later step depends on that choice. Anyone who can contribute text to a repository, such
+as a comment, a docstring or a function name, can try to point the localizer at the wrong place.
 
-One definition is used everywhere. A decoy is named when it is in the answer's top 5 functions, and newly steered when
-it is named on the trap run and not on the clean run of the same session. Clean is 0 for every variant, so newly steered
-equals the trap count.
+We ask two questions.
+
+1. Can planted text pull a localizer toward a decoy function that has nothing to do with the bug?
+2. Does the localizer have to read file contents for that to work, or is it enough to see names?
+
+## Idea
+
+We compare three localizers that all use the same model, Gemma 4 31B, and differ only in what they can see.
+
+| Localizer | What it sees |
+|---|---|
+| A1 | A repo map with module and function names only |
+| A1.5 | A repo map with names and signatures |
+| A2 | The repo map, then the full source of up to 3 modules it chooses to read |
+
+We then plant a trap and check whether the localizer names the decoy instead of the real fix location.
+
+| Trap | What is planted |
+|---|---|
+| T1 | A maintainer-style comment saying the behaviour lives in the decoy |
+| T2 | A docstring sentence saying the same |
+| T3 | An instruction-style note, adapted from common prompt-injection wording, telling the reader to name the decoy |
+| T4 | A new bait function whose name is taken from the issue, visible to every localizer |
+
+Each of T1 to T3 is placed in one of two ways. In the **decoy** placement the note sits inside the decoy function. In the
+**pointer** placement the note sits in a function of the real gold module and points at the decoy, so it is read whenever
+the gold module is read.
+
+## What is implemented
+
+- **Task set.** 40 real bug-fix tasks, 17 from FastAPI, 15 from Rich and 8 from Requests, each with gold files and gold
+  functions found by matching the real patch to a code graph (`task_set_40.json`).
+- **Localizers.** A1, A1.5 and A2 in `localizer.py`. Answers are checked against the real list of modules and functions,
+  so invented names are dropped.
+- **Baselines.** Two BM25 keyword baselines in `bm25_base.py`.
+- **Trap generator.** `trap_gen.py` picks a decoy for every task, in a different module from the gold code and far from
+  it in the call graph. It writes the four traps in both placements. Output is deterministic.
+- **Kaggle notebooks.** `Phase2_Localizers.ipynb` runs the clean localizers. `Phase3_Traps.ipynb` runs every trap variant
+  on every localizer, and logs whether the planted text was actually shown to the model.
+- **Analysis.** `Phase3_Reanalysis_v2.ipynb` computes decoy named, newly steered, gold loss and top-module drift. It uses
+  Wilson intervals, exact McNemar tests, and Bonferroni, Holm and Benjamini-Hochberg correction, then draws the figure.
+
+## Metrics
+
+- **Decoy named.** The decoy function is in the answer's top 5 functions.
+- **Newly steered.** The decoy is named on the trap run and not on the clean run of the same session.
+- **Gold loss.** The correct module was in the clean answer and is missing from the trap answer.
+- **Top-module drift.** The top-ranked module changed between the clean and the trap run.
+
+## Results
+
+Analysis uses 39 tasks. Rich task rich_3934 is excluded because its decoy sits inside the gold file.
 
 | Variant | A1 | A1.5 | A2 |
 |---|---|---|---|
-| T4 bait function | 13 | 9 | 11 |
-| T3 pointer | 0 | 0 | 7 |
-| T1 pointer | 0 | 0 | 3 |
-| T3 in decoy | 0 | 0 | 2 |
-| T1 in decoy | 0 | 0 | 1 |
-| T2 pointer and T2 in decoy | 0 | 0 | 0 |
+| T4 bait function | 13 of 39 | 9 of 39 | 11 of 39 |
+| T3 note, pointer | 0 | 0 | 7 |
+| T1 note, pointer | 0 | 0 | 3 |
+| T3 note, in decoy | 0 | 0 | 2 |
+| T1 note, in decoy | 0 | 0 | 1 |
+| T2 note, pointer or in decoy | 0 | 0 | 0 |
 
-Over 21 tests, Bonferroni and Holm keep only T4 on A1 and A2. Benjamini-Hochberg adds T4 on A1.5. The T3 pointer on A2
-(7 of 39, p=0.0156) survives none of them. A2 read the planted pointer in 28 of 39 tasks. It followed the T3 pointer in 7
-of those 28 and in 0 of the 11 where it did not read the note. Full tables are in `Analysis_final_v2/tables.md`.
+Numbers are tasks newly steered toward the decoy.
 
-## Canonical folders
+- A planted bait function name steers every localizer, because the name appears in every repo map.
+- Planted comments steer only A2, the localizer that reads file contents. A2 followed the T3 pointer in 7 of the 28 tasks
+  where it read the note and in 0 of the 11 where it did not.
+- Instruction-style wording steers most, the maintainer comment less, and the docstring claim not at all.
+- When A2 is steered it often loses the correct module. Under the T3 pointer it lost gold in 7 of 31 tasks and ranked the
+  decoy first each time.
 
-| Folder | Role | Canonical |
-|---|---|---|
-| `Phase_3/` | Trap runs from the pilot session (T1 decoy, T3 pointer, T4) plus that session's clean runs | Yes (traps) |
-| `Phase_3_v2/` | Trap runs from the rest session (T1 pointer, T2 decoy, T2 pointer, T3 decoy) plus that session's clean runs | Yes (traps) |
-| `Phase_2_v2/` | Clean localizer runs with the fixed localizer | Yes (Phase 2 clean table) |
-| `Phase_2/` | First clean runs. `loc_A2.json` comes from the old, buggy A2 | Historical |
-| `Analysis_final_v2/` | Final tables, CSV and figure on 39 tasks with one definition of decoy named | Yes (analysis) |
-| `Analysis_final/` | First analysis pass on 40 tasks with a mixed module and function metric | Superseded, kept as the audit trail |
-| repo root | BM25 baselines, the fixed `localizer.py`, the reanalysis notebook, handover and plan documents | Mixed |
+Full tables are in `Analysis_final_v2/tables.md` and the figure is `Analysis_final_v2/figure_a2_decoy_named.png`.
 
-Frozen files, do not edit. Every result and spec file in `Phase_3*/`, `Phase_2*/loc_*.json`, `bm25_results.json`,
-`task_set_40.json`, both `trap_gen.py` files, and the `localizer.py` copy inside each Phase folder. Those copies record
-exactly what ran and still carry the old module parser.
+## Repository layout
 
-## What each file is
-
-| File | Contents |
+| Path | Contents |
 |---|---|
-| `task_set_40.json` (identical copies in `Phase_2_v2/`, `Phase_3/`, `Phase_3_v2/`) | The 40 tasks with gold functions and gold files |
-| `Phase_3*/clean_{A1,A1.5,A2}.json` | Clean run for that session, one row per task with answer modules and functions, gold ranks and A2 shown nodes |
-| `Phase_3*/trap_{variant}_{loc}.json` | The same rows under a trap, plus `decoy_fn_rank`, `decoy_mod_rank` and for A2 `trap_seen` (A2 was shown the planted text) |
-| `Phase_3*/spec_{variant}.json` | Decoy or bait id per task, host node of the planted text, and `meta` (hops, placement) |
-| `Phase_3*/summary_p3.txt` | Printed summary from `trap_gen.analyze`, which uses the looser module-or-function metric. Do not cite it |
-| `Phase_2*/loc_*.json`, `summary*.txt` | Clean Phase 2 runs. `loc_A2_v2.json` is the fixed A2 rerun and `loc_A1_rerun.json` is the A1 noise rerun |
-| `Phase_2/localizer_v1_buggy.py` | Old localizer restored from commit `a7c2c22`. It produced `Phase_2/loc_A2.json` |
-| `localizer.py` (root) | Localizers with the fixed module parser (a component starting with underscores then a capital letter is a class) |
-| `bm25_results.json` | BM25 baselines B1 and B2, clean only, made by `bm25_base.py` |
-| `Phase3_Reanalysis_v2.ipynb` | Reads the saved results and writes every table and the figure on 39 tasks |
-| `Analysis_final_v2/tables.md` | Decoy named, multiple-testing correction, exposure split, pointer wording comparison, gold loss and drift, clean accuracy |
-| `Analysis_final_v2/all_results.csv` | One row per variant and localizer with every metric |
-| `Analysis_final_v2/figure_a2_decoy_named.png` | Newly steered share for the comment variants on A2 and for T4 on all localizers, with Wilson intervals |
-| `Analysis_final/` | First analysis pass on 40 tasks, including `NOTES.md` on numbers that could not be reproduced |
+| `task_set_40.json` | The 40 tasks with gold files and gold functions |
+| `localizer.py` | Localizers A1, A1.5 and A2 |
+| `bm25_base.py`, `bm25_results.json` | BM25 baselines and their results |
+| `Phase_2_v2/` | Clean localizer runs |
+| `Phase_3/` | Trap runs for T1 in decoy, T3 pointer and T4, with that session's clean runs |
+| `Phase_3_v2/` | Trap runs for T1 pointer, T2 and T3 in decoy, with that session's clean runs |
+| `Phase3_Reanalysis_v2.ipynb` | Analysis notebook that builds every table and the figure |
+| `Analysis_final_v2/` | Final tables, CSV and figure |
 
-## Rerunning the analysis (no GPU)
+Each `Phase_3*` folder holds `clean_{A1,A1.5,A2}.json`, `trap_{variant}_{localizer}.json`, `spec_{variant}.json` with the
+decoy chosen for each task, and its own copies of `localizer.py` and `trap_gen.py`.
+
+## How to run
+
+### Reproduce the tables and the figure
+
+No GPU and no model calls are needed. The notebook reads the saved result files.
 
 ```bash
 pip install matplotlib
 jupyter notebook Phase3_Reanalysis_v2.ipynb
 ```
 
-Run all cells from the repo root, next to `Phase_3/` and `Phase_3_v2/`. The notebook reads only saved JSON files. It
-checks every p-value against an independent exact binomial test and writes its outputs to `Analysis_final_v2/`. Set
-`REPO` in the first code cell if it cannot find the folders.
+Run all cells from the repository root, next to `Phase_3/` and `Phase_3_v2/`. Outputs are written to `Analysis_final_v2/`.
 
-Rerunning the experiments themselves needs Kaggle, with the competition data, the wheelhouse and the model. The notebooks
-`Phase_3*/Phase3_Traps.ipynb` write their own code into `/kaggle/working`. A full Phase 3 rerun takes about 3.5 GPU-hours
-on L4 x4 and will not reproduce byte for byte, because temperature 0 is not deterministic here.
+### Rerun the experiments
 
-## Known caveats
+The experiments need a Kaggle account with access to the Gemma 4 Developer Agent competition, which provides the data, the
+wheel files and the model.
 
-1. **rich_3934 is dropped.** Its decoy `rich.live._RefreshThread.run` sits inside the gold file `rich/live.py`. The old
-   `module_of_node` read `_RefreshThread` as a module, so the different-module check let it through. The parser is fixed
-   in the root `localizer.py`, and no other task has a decoy or bait inside a gold file. The frozen runs used the old
-   parser, so the fix matters only for a rerun. On all 40 tasks the T3 pointer on A2 was 8 steered (p=0.0078) and survived
-   only Benjamini-Hochberg (q=0.041). On 39 tasks it is 7 (p=0.0156) and survives no correction.
-2. **Metric definition.** Use function level, meaning the decoy in the top 5 functions. The module-or-function metric in
-   `summary_p3.txt` also counts a decoy whose module is merely listed, which gives a clean count of 1 in some rows.
-3. **Multiple testing.** There are 21 tests, 7 variants by 3 localizers. Bonferroni and Holm keep T4 on A1 and A2.
-   Benjamini-Hochberg also keeps T4 on A1.5.
-4. **Temperature 0 is not deterministic** on vLLM here. A1 shows up to 3 top-module changes in 39 with an unchanged
-   prompt. Treat changes at or below that as noise.
-5. **Gold labels and decoys have no recorded human validation.** The Y/N columns in
-   `Phase1_Validation_and_Task_Set.xlsx` are empty. An earlier hand check of 15 tasks estimated label error at about 27
-   percent.
-6. Each trap variant was run once. The clean baselines were run once per session, and each trap file is paired with its
-   own session's clean file.
-7. Gold loss uses gold module in the top 3 on the clean run as the baseline, while headline accuracy is module at top 1.
-   Clean A1 module at top 1 is 28 of 39 (71.8 percent) on the analysed tasks.
-8. The 11 tasks with no hop distance have a decoy that is disconnected from gold in the call graph. It does not mean gold
-   has no graph node.
-9. Seven FastAPI tasks share the decoy `BackgroundTasks.add_task`, and pointer hosts repeat. None of those seven is a
-   follower, so dropping them leaves the T3 pointer result unchanged. PR titles quoted in the traps sometimes name the gold
-   function, which makes the attack conservative.
-10. Notes placed inside the decoy are barely tested, because A2 read the decoy module in only 1 or 2 of 39 tasks.
-11. The repo holds competition data in traces, Kaggle logs and problem text echoed in raw outputs. Check the competition
-    licence before any public release. There is no LICENSE yet. Deleting files does not remove them from git history.
+1. Open `Phase2_Localizers.ipynb` on Kaggle for the clean runs, or `Phase3_Traps.ipynb` for the trap runs.
+2. Set the accelerator to GPU L4 x4 and turn Internet off.
+3. Attach the competition data and run the notebook. It writes its own code into `/kaggle/working`.
+
+In `Phase3_Traps.ipynb`, the `RUN` setting chooses which trap variants run. A full Phase 3 run takes about 3.5 GPU-hours.
+Runs at temperature 0 on vLLM are not fully deterministic, so a rerun will match closely but not byte for byte.
+
+## Scope
+
+One model (Gemma 4 31B, w4a16), three Python repositories, 40 tasks and one run per variant. Tasks use data that ships
+with the competition, so check the competition rules before sharing task text or traces.
+
+## License
+
+To be added.
