@@ -27,3 +27,10 @@ Download `clean_*.json`, `trap_T4c_decoy_*.json`, `trap_T4_decoy_*.json`, `spec_
 ```bash
 python Phase_3_control/analyze_control.py
 ```
+
+## Other scripts here (no GPU, frozen files only)
+
+| File | What it does |
+|---|---|
+| `figure_bait_split.py` | Draws `Analysis_final_v2/figure_bait_split.png`, the bait result split by clean outcome. |
+| `rescore_corrected_labels.py` | Rescores every saved run with the three corrected reference labels and reports what changes (nothing). |

@@ -83,6 +83,23 @@ Numbers are tasks newly steered toward the decoy.
 
 Full tables are in `Analysis_final_v2/tables.md` and the figure is `Analysis_final_v2/figure_a2_decoy_named.png`.
 
+Further readings of the bait result, from the same saved files:
+
+- When the bait is named it is ranked first in 30 of 33 cases (12 of 13, 8 of 9, 10 of 11).
+- A1 named the bait in 13 of the 19 tasks where its clean answer had no reference function and in 0 of the 20 where it
+  had one. A1.5 and A2 also named it in tasks they had right (4 of 28 and 7 of 28) and lost the reference function in 4
+  and 5 of them. See `Analysis_final_v2/figure_bait_split.png`.
+- One author hand-checked 23 of the 40 reference labels against the upstream pull requests. 19 matched exactly, 4
+  omitted a minor function and none was wrong. Rescoring with the corrected labels changes no reported number
+  (`Phase_3_control/rescore_corrected_labels.py`).
+
+Control run (`Phase_3_control/`, tables in `Phase_3_control/control_tables.md`):
+
+- The control bait, the same stub named after a different task's issue, was named in 0 of 39 tasks on every localizer.
+- The bait, rerun in the same session, was named in the same 13, 9 and 11 tasks as the first run.
+- A keyword ranker over names (BM25) ranks the bait first in 30 of 39 tasks and the control in none. Every task where
+  Gemma named the bait has it in the ranker's top five.
+
 ## Repository layout
 
 | Path | Contents |
@@ -95,6 +112,7 @@ Full tables are in `Analysis_final_v2/tables.md` and the figure is `Analysis_fin
 | `Phase_3_v2/` | Trap runs for T1 pointer, T2 and T3 in decoy, with that session's clean runs |
 | `Phase3_Reanalysis_v2.ipynb` | Analysis notebook that builds every table and the figure |
 | `Analysis_final_v2/` | Final tables, CSV and figure |
+| `Phase_3_control/` | Control run for the bait function, its notebook, generator v3 and offline analysis scripts |
 
 Each `Phase_3*` folder holds `clean_{A1,A1.5,A2}.json`, `trap_{variant}_{localizer}.json`, `spec_{variant}.json` with the
 decoy chosen for each task, and its own copies of `localizer.py` and `trap_gen.py`.
