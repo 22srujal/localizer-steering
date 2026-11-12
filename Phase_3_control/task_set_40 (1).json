@@ -1,0 +1,637 @@
+[
+ {
+  "id": "fastapi_14583",
+  "repo": "fastapi",
+  "base_commit": "6513d4daa16a536d17743de6a292f49bd06388a4",
+  "title": "\ud83d\udd0a Add deprecation warnings when using `pydantic.v1`",
+  "gold_functions": [
+   "fastapi.dependencies.utils.get_dependant",
+   "fastapi.routing.APIRoute.__init__"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py",
+   "fastapi/routing.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 3
+ },
+ {
+  "id": "fastapi_14349",
+  "repo": "fastapi",
+  "base_commit": "eaf611f9ee56de4f16c837d4f487a4b9fca507c4",
+  "title": "\ud83d\udc1b Fix handling of JSON Schema attributes named \"$ref\"",
+  "gold_functions": [
+   "fastapi._compat.v2._replace_refs"
+  ],
+  "gold_files": [
+   "fastapi/_compat/v2.py"
+  ],
+  "anchors": [
+   "fastapi.openapi.models.Schema"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_9753",
+  "repo": "fastapi",
+  "base_commit": "aee8e78078e8a7f2736d3cab7a1cb7197356951c",
+  "title": "\u2728 Allow using dependables with `functools.partial()`",
+  "gold_functions": [
+   "fastapi.dependencies.models.Dependant._unwrapped_call"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/models.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 1
+ },
+ {
+  "id": "fastapi_14246",
+  "repo": "fastapi",
+  "base_commit": "7132a690461c2367f22556eb87c2b5eb7d9cfb45",
+  "title": "\ud83d\udc1b Fix separation of schemas with nested models introduced in 0.119.0",
+  "gold_functions": [
+   "fastapi._compat.v2.get_definitions"
+  ],
+  "gold_files": [
+   "fastapi/_compat/v2.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_15589",
+  "repo": "fastapi",
+  "base_commit": "22b02e26f9e8c7e32bd8266e2b0ebe8bb3a0db2b",
+  "title": "\u267b\ufe0f Do not accept underscore headers when using `convert_underscores=True` (the default)",
+  "gold_functions": [
+   "fastapi.dependencies.utils.request_params_to_args"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_14356",
+  "repo": "fastapi",
+  "base_commit": "6cf40df24d1d199fd25d034fc87fcae284fc23a2",
+  "title": "\ud83d\udc1b Fix parsing extra non-body parameter list",
+  "gold_functions": [
+   "fastapi.dependencies.utils.request_params_to_args"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "anchors": [
+   "fastapi._compat.may_v1.BaseModel",
+   "fastapi.applications.FastAPI"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_14372",
+  "repo": "fastapi",
+  "base_commit": "566e3157a5517784c741dbf36e39687af326fe90",
+  "title": "\u267b\ufe0f Make the result of `Depends()` and `Security()` hashable, as a workaround for other tools interacting with these internal parts",
+  "gold_functions": [
+   "fastapi.dependencies.utils.analyze_param",
+   "fastapi.params.Depends"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py",
+   "fastapi/params.py"
+  ],
+  "anchors": [
+   "fastapi.applications.FastAPI",
+   "fastapi.param_functions.Depends",
+   "fastapi.param_functions.Security",
+   "fastapi.params.Depends",
+   "fastapi.params.Security"
+  ],
+  "unmapped_hunks": 1
+ },
+ {
+  "id": "fastapi_14962",
+  "repo": "fastapi",
+  "base_commit": "1e78a36b7310003f0ff634627d8a7bc53c6ccdee",
+  "title": "\u2728 Serialize JSON response with Pydantic (in Rust), when there's a Pydantic return type or response model",
+  "gold_functions": [
+   "fastapi.routing.get_request_handler"
+  ],
+  "gold_files": [
+   "docs_src/custom_response/tutorial010_py310.py",
+   "fastapi/_compat/v2.py",
+   "fastapi/routing.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 3
+ },
+ {
+  "id": "fastapi_14794",
+  "repo": "fastapi",
+  "base_commit": "464c359bb03f7ba72330198cc9f44df36194837d",
+  "title": "\u2728 Allow `Response` type hint as dependency annotation",
+  "gold_functions": [
+   "fastapi.dependencies.utils.analyze_param"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "anchors": [
+   "fastapi.dependencies.utils.analyze_param",
+   "fastapi.openapi.models.Response",
+   "fastapi.param_functions.Depends",
+   "fastapi.params.Depends"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_14258",
+  "repo": "fastapi",
+  "base_commit": "e94028ab60d18080810910352bc9129e8046c92d",
+  "title": "\u2728 Show a clear error on attempt to include router into itself",
+  "gold_functions": [
+   "fastapi.routing.APIRouter.include_router"
+  ],
+  "gold_files": [
+   "fastapi/routing.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_14430",
+  "repo": "fastapi",
+  "base_commit": "cff2236dacb7aedcaf2d2de0873cfbc9bb2b897a",
+  "title": "\ud83d\udc1b Fix optional sequence handling with new union syntax from Python 3.10",
+  "gold_functions": [
+   "fastapi._compat.v2.serialize_sequence_value"
+  ],
+  "gold_files": [
+   "fastapi/_compat/v2.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 1
+ },
+ {
+  "id": "fastapi_5624",
+  "repo": "fastapi",
+  "base_commit": "c6487ed632056e450d844846a1b63be551a3cbc6",
+  "title": "\ud83d\udc1b Fix hierarchical security scope propagation",
+  "gold_functions": [
+   "fastapi.dependencies.utils.get_dependant"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_13207",
+  "repo": "fastapi",
+  "base_commit": "5126e099bdda51f261fd5a101b5f914991d31897",
+  "title": "\ud83d\udc1b Fix OpenAPI schema support for computed fields when using `separate_input_output_schemas=False`",
+  "gold_functions": [
+   "fastapi._compat.v2.get_definitions",
+   "fastapi._compat.v2.get_schema_from_model_field"
+  ],
+  "gold_files": [
+   "fastapi/_compat/v2.py"
+  ],
+  "anchors": [
+   "fastapi.openapi.models.OpenAPI"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_14616",
+  "repo": "fastapi",
+  "base_commit": "54f8aeeb9a15e4d5a12401ec5549840966df0087",
+  "title": "\ud83d\udc1b Fix using `Json[list[str]]` type (issue #10997)",
+  "gold_functions": [
+   "fastapi.dependencies.utils._get_multidict_value"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "anchors": [
+   "fastapi.applications.FastAPI",
+   "fastapi.param_functions.Form",
+   "fastapi.params.Form"
+  ],
+  "unmapped_hunks": 1
+ },
+ {
+  "id": "fastapi_14479",
+  "repo": "fastapi",
+  "base_commit": "2b212ddd7604891d42e2ffbafe764c334230bdb7",
+  "title": "\ud83d\udeb8 Improve error message for invalid query parameter type annotations",
+  "gold_functions": [
+   "fastapi.dependencies.utils.analyze_param"
+  ],
+  "gold_files": [
+   "fastapi/dependencies/utils.py"
+  ],
+  "anchors": [
+   "fastapi.applications.FastAPI"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "fastapi_14512",
+  "repo": "fastapi",
+  "base_commit": "1fcec88ad2df4541b6a81c4786c4d039dc745e1e",
+  "title": "\ud83d\udc1b Fix support for tagged union with discriminator inside of `Annotated` with `Body()`",
+  "gold_functions": [
+   "fastapi._compat.v2.ModelField.__post_init__"
+  ],
+  "gold_files": [
+   "fastapi/_compat/v2.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 2
+ },
+ {
+  "id": "fastapi_13713",
+  "repo": "fastapi",
+  "base_commit": "5c1f87c56387a96dbdddb2b1c4ec9ba48dcebc4e",
+  "title": "\u2728 Add OpenAPI `external_docs` parameter to `FastAPI`",
+  "gold_functions": [
+   "fastapi.applications.FastAPI.__init__",
+   "fastapi.applications.FastAPI.openapi",
+   "fastapi.openapi.utils.get_openapi"
+  ],
+  "gold_files": [
+   "fastapi/applications.py",
+   "fastapi/openapi/utils.py"
+  ],
+  "anchors": [
+   "fastapi.applications.FastAPI",
+   "fastapi.openapi.models.OpenAPI"
+  ],
+  "unmapped_hunks": 1
+ },
+ {
+  "id": "rich_3063",
+  "repo": "rich",
+  "base_commit": "368e8ad77c95a6bef8f9d332039091d1417296bc",
+  "title": "Fix escaping trailing backslash",
+  "gold_functions": [
+   "rich.markup.escape"
+  ],
+  "gold_files": [
+   "rich/markup.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 1
+ },
+ {
+  "id": "rich_3777",
+  "repo": "rich",
+  "base_commit": "49117ced6648a432d85951f72dce777038f6ce09",
+  "title": "TTY_INTERACTIVE env var",
+  "gold_functions": [
+   "rich.console.Console.__init__",
+   "rich.diagnose.report"
+  ],
+  "gold_files": [
+   "rich/console.py",
+   "rich/diagnose.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 1
+ },
+ {
+  "id": "rich_4079",
+  "repo": "rich",
+  "base_commit": "19c67b9a3479841e9133bea94607c89ee931d3fc",
+  "title": "Inline table code",
+  "gold_functions": [
+   "rich.markdown.TableDataElement.on_text"
+  ],
+  "gold_files": [
+   "rich/markdown.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "rich_3905",
+  "repo": "rich",
+  "base_commit": "96dd4b60e3a7c647c43a85ad375afa690b3bb85b",
+  "title": "Update progress.py",
+  "gold_functions": [
+   "rich.progress.Progress.stop"
+  ],
+  "gold_files": [
+   "rich/progress.py"
+  ],
+  "anchors": [
+   "rich.progress.Progress"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "rich_3472",
+  "repo": "rich",
+  "base_commit": "b6f2f7aa5b27f612f391cd28212aff51ad0d42d1",
+  "title": "fix for missing field in dataclass",
+  "gold_functions": [
+   "rich.pretty._traverse"
+  ],
+  "gold_files": [
+   "rich/pretty.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "rich_3782",
+  "repo": "rich",
+  "base_commit": "3b70db5a2997de191f7db3e422dbe4da35ca1c95",
+  "title": "Syntax padding",
+  "gold_functions": [
+   "rich.syntax.Syntax.__init__",
+   "rich.syntax.Syntax.__rich_console__",
+   "rich.syntax.Syntax.__rich_measure__",
+   "rich.syntax.Syntax._get_syntax",
+   "rich.syntax.Syntax.guess_lexer"
+  ],
+  "gold_files": [
+   "rich/syntax.py"
+  ],
+  "anchors": [
+   "rich.syntax.Syntax"
+  ],
+  "unmapped_hunks": 2
+ },
+ {
+  "id": "rich_3934",
+  "repo": "rich",
+  "base_commit": "6764b24739b580c0c32ff5ef0b971ed4cfcf4f75",
+  "title": "empty live",
+  "gold_functions": [
+   "rich.live.Live.stop"
+  ],
+  "gold_files": [
+   "rich/live.py",
+   "rich/live_render.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 2
+ },
+ {
+  "id": "rich_3469",
+  "repo": "rich",
+  "base_commit": "c478588f3c228a4e86741a057c42b452d7bc6bce",
+  "title": "fix superfluous space",
+  "gold_functions": [
+   "rich.markdown.Markdown.__rich_console__"
+  ],
+  "gold_files": [
+   "rich/markdown.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "rich_3471",
+  "repo": "rich",
+  "base_commit": "e2a982d5ea747f0deb7f78e8eaa5b4be7d9194cf",
+  "title": "Fixed exception in append_tokens",
+  "gold_functions": [
+   "rich.text.Text.append_tokens"
+  ],
+  "gold_files": [
+   "rich/text.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "rich_3506",
+  "repo": "rich",
+  "base_commit": "4101991898ee7a09fe1706daca24af5e1e054862",
+  "title": "fix split cells",
+  "gold_functions": [
+   "rich.segment.Segment._split_cells"
+  ],
+  "gold_files": [
+   "rich/segment.py"
+  ],
+  "anchors": [
+   "rich.segment.Segment._split_cells"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "rich_3935",
+  "repo": "rich",
+  "base_commit": "fe55a131c2780fa856464ad04d7d6dc8a1079b72",
+  "title": "fix for padding width",
+  "gold_functions": [
+   "rich.table.Table._get_padding_width"
+  ],
+  "gold_files": [
+   "rich/table.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 4
+ },
+ {
+  "id": "rich_3052",
+  "repo": "rich",
+  "base_commit": "7a168a27c5097805b3bafa495f35e3955004ff4a",
+  "title": "Case insensitive prompt choices",
+  "gold_functions": [
+   "rich.prompt.PromptBase.__init__",
+   "rich.prompt.PromptBase.ask",
+   "rich.prompt.PromptBase.check_choice",
+   "rich.prompt.PromptBase.process_response"
+  ],
+  "gold_files": [
+   "rich/prompt.py"
+  ],
+  "anchors": [
+   "rich.prompt.Prompt",
+   "rich.prompt.PromptBase.ask"
+  ],
+  "unmapped_hunks": 2
+ },
+ {
+  "id": "rich_3470",
+  "repo": "rich",
+  "base_commit": "0ba607dc080c9f102b5ae5346bcdb70d6e9c969d",
+  "title": "Fix record and capture",
+  "gold_functions": [
+   "rich.console.Console._write_buffer"
+  ],
+  "gold_files": [
+   "rich/console.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "rich_4075",
+  "repo": "rich",
+  "base_commit": "1fc7cb210ae52eb099df39818ddb9569e5b14c7b",
+  "title": "empty with end",
+  "gold_functions": [
+   "rich.console.Console.print",
+   "rich.console.Console.save_text"
+  ],
+  "gold_files": [
+   "rich/console.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 2
+ },
+ {
+  "id": "rich_3718",
+  "repo": "rich",
+  "base_commit": "7d36119f8378b36129502c3281a7faffef837e02",
+  "title": "fix(panel): fix title missing panel background",
+  "gold_functions": [
+   "rich.panel.Panel.__rich_console__"
+  ],
+  "gold_files": [
+   "rich/panel.py"
+  ],
+  "anchors": [
+   "rich.panel.Panel"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "requests_6644",
+  "repo": "requests",
+  "base_commit": "382fc2c0c6c0ef0874bc65bc1175f97c073e5086",
+  "title": "Trim excess leading path separators",
+  "gold_functions": [
+   "requests.adapters.HTTPAdapter.request_url"
+  ],
+  "gold_files": [
+   "src/requests/adapters.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "requests_6589",
+  "repo": "requests",
+  "base_commit": "7a13c041dbef42f9f3feb14110f02626f6892e9a",
+  "title": "Enhance `super_len` to count encoded bytes for str",
+  "gold_functions": [
+   "requests.utils.super_len"
+  ],
+  "gold_files": [
+   "src/requests/utils.py"
+  ],
+  "anchors": [
+   "requests.utils.super_len"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "requests_7205",
+  "repo": "requests",
+  "base_commit": "1b40fdd004bfc8ba5301bcf8a6908264e9b6b877",
+  "title": "Fix empty netrc entry usage",
+  "gold_functions": [
+   "requests.utils.get_netrc_auth"
+  ],
+  "gold_files": [
+   "src/requests/utils.py"
+  ],
+  "anchors": [],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "requests_7433",
+  "repo": "requests",
+  "base_commit": "0b401c76b6e80a4eecf3c690085b2553f6e261ca",
+  "title": "Fix `prepare_body` stream detection for `__getattr__`-based file wrappers",
+  "gold_functions": [
+   "requests.models.PreparedRequest.prepare_body"
+  ],
+  "gold_files": [
+   "src/requests/models.py"
+  ],
+  "anchors": [
+   "requests.models.PreparedRequest.prepare_body"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "requests_7502",
+  "repo": "requests",
+  "base_commit": "661970d171d9c3e12e4c789c4768db647d8c4da0",
+  "title": "Fix `_encode_files` detection for `__getattr__`-based file wrappers",
+  "gold_functions": [
+   "requests.models.RequestEncodingMixin._encode_files"
+  ],
+  "gold_files": [
+   "src/requests/models.py"
+  ],
+  "anchors": [
+   "requests.models.RequestEncodingMixin._encode_files"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "requests_7505",
+  "repo": "requests",
+  "base_commit": "6f205ff422bccd5e4c4fc0b64c5f3e7df5181db6",
+  "title": "Add hasattr checks for remaining protocol isinstance checks",
+  "gold_functions": [
+   "requests.models.PreparedRequest.prepare_body",
+   "requests.models.RequestEncodingMixin._encode_files",
+   "requests.models.RequestEncodingMixin._encode_params"
+  ],
+  "gold_files": [
+   "src/requests/_types.py",
+   "src/requests/models.py"
+  ],
+  "anchors": [
+   "requests._types.SupportsRead"
+  ],
+  "unmapped_hunks": 3
+ },
+ {
+  "id": "requests_7328",
+  "repo": "requests",
+  "base_commit": "cbce031327be4f1b4b5fd041ff4dcaa8efa2ce53",
+  "title": "Prevent Response self-reference in redirect history",
+  "gold_functions": [
+   "requests.sessions.SessionRedirectMixin.resolve_redirects"
+  ],
+  "gold_files": [
+   "src/requests/sessions.py"
+  ],
+  "anchors": [
+   "requests.models.Response",
+   "requests.sessions.Session.send"
+  ],
+  "unmapped_hunks": 0
+ },
+ {
+  "id": "requests_7309",
+  "repo": "requests",
+  "base_commit": "7407309c8a8a73aa2f4337184025d440bbedab7a",
+  "title": "Fix malformed value parsing for Content-Type",
+  "gold_functions": [
+   "requests.utils._parse_content_type_header"
+  ],
+  "gold_files": [
+   "src/requests/utils.py"
+  ],
+  "anchors": [
+   "requests.utils._parse_content_type_header"
+  ],
+  "unmapped_hunks": 0
+ }
+]

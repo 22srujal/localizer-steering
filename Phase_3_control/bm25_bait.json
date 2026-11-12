@@ -1,0 +1,2242 @@
+[
+ {
+  "id": "fastapi_14583",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 16.699,
+   "gold_rank": 788,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.utils.handle_deprecation_warnings_pydantic",
+    "fastapi.temp_pydantic_v1_params.Param",
+    "fastapi.temp_pydantic_v1_params.Path",
+    "fastapi.temp_pydantic_v1_params.Query",
+    "fastapi.temp_pydantic_v1_params.Header"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 38.776,
+   "gold_rank": 76,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.utils.handle_deprecation_warnings_pydantic",
+    "fastapi.temp_pydantic_v1_params.Param.__init__",
+    "fastapi.temp_pydantic_v1_params.Body.__init__",
+    "fastapi.params.Param.__init__",
+    "fastapi.params.Body.__init__"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1064,
+   "bait_score": 0,
+   "gold_rank": 787,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.temp_pydantic_v1_params.Param",
+    "fastapi.temp_pydantic_v1_params.Path",
+    "fastapi.temp_pydantic_v1_params.Query",
+    "fastapi.temp_pydantic_v1_params.Header",
+    "fastapi.temp_pydantic_v1_params.Cookie"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 1064,
+   "bait_score": 0,
+   "gold_rank": 75,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.temp_pydantic_v1_params.Param.__init__",
+    "fastapi.temp_pydantic_v1_params.Body.__init__",
+    "fastapi.params.Param.__init__",
+    "fastapi.params.Body.__init__",
+    "fastapi.utils.generate_operation_id_for_path"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14349",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 15.327,
+   "gold_rank": 212,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi.utils.handle_handling_json_schema",
+    "fastapi._compat.v1.GenerateJsonSchema",
+    "fastapi._compat.may_v1.JsonSchemaValue",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi._compat.may_v1.GetJsonSchemaHandler"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 54.711,
+   "gold_rank": 5,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi.utils.handle_handling_json_schema",
+    "fastapi._compat.v2.get_schema_from_model_field",
+    "fastapi.exceptions.HTTPException",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi._compat.v2._replace_refs"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 323,
+   "bait_score": 1.138,
+   "gold_rank": 211,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi._compat.v1.GenerateJsonSchema",
+    "fastapi._compat.may_v1.JsonSchemaValue",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi._compat.may_v1.GetJsonSchemaHandler",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 390,
+   "bait_score": 2.104,
+   "gold_rank": 4,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi._compat.v2.get_schema_from_model_field",
+    "fastapi.exceptions.HTTPException",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi._compat.v2._replace_refs",
+    "fastapi.applications.FastAPI"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_9753",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 21.152,
+   "gold_rank": 416,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi.background.handle_dependables_functools_partial",
+    "fastapi._compat.v1.with_info_plain_validator_function",
+    "dependency_testing.tutorial001.test_override_in_items_with_q",
+    "dependency_testing.tutorial001.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_an.test_override_in_items_with_q"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 30,
+   "bait_score": 51.353,
+   "gold_rank": 623,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi.security.oauth2.OAuth2PasswordRequestForm",
+    "fastapi.param_functions.Security",
+    "fastapi.param_functions.Depends",
+    "fastapi.security.oauth2.OAuth2PasswordRequestFormStrict",
+    "fastapi.routing.request_response"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 416,
+   "bait_score": 1.128,
+   "gold_rank": 415,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi._compat.v1.with_info_plain_validator_function",
+    "dependency_testing.tutorial001.test_override_in_items_with_q",
+    "dependency_testing.tutorial001.test_override_in_items_with_params",
+    "dependency_testing.tutorial001_an.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_q"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 220,
+   "bait_score": 10.231,
+   "gold_rank": 623,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi.security.oauth2.OAuth2PasswordRequestForm",
+    "fastapi.param_functions.Security",
+    "fastapi.param_functions.Depends",
+    "fastapi.security.oauth2.OAuth2PasswordRequestFormStrict",
+    "fastapi.routing.request_response"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14246",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 15.306,
+   "gold_rank": 421,
+   "n_nodes": 1232,
+   "top5": [
+    "fastapi.encoders.handle_separation_schemas_nested",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.dependencies.utils._should_embed_body_fields",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "dependency_testing.tutorial001.test_override_in_items_with_q"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 66.574,
+   "gold_rank": 92,
+   "n_nodes": 1232,
+   "top5": [
+    "fastapi.encoders.handle_separation_schemas_nested",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 526,
+   "bait_score": 1.128,
+   "gold_rank": 420,
+   "n_nodes": 1232,
+   "top5": [
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.dependencies.utils._should_embed_body_fields",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "dependency_testing.tutorial001.test_override_in_items_with_q",
+    "fastapi.openapi.models.APIKeyIn"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 666,
+   "bait_score": 2.057,
+   "gold_rank": 91,
+   "n_nodes": 1232,
+   "top5": [
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_15589",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 16.719,
+   "gold_rank": 15,
+   "n_nodes": 762,
+   "top5": [
+    "fastapi.utils.handle_accept_underscore_headers",
+    "response_change_status_code.tutorial001_py310.get_or_create_task",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "app_testing.app_b_an_py310.main.Item",
+    "app_testing.app_b_py310.main.Item"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 37,
+   "bait_score": 66.273,
+   "gold_rank": 47,
+   "n_nodes": 762,
+   "top5": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.security.open_id_connect_url.OpenIdConnect",
+    "fastapi.security.oauth2.OAuth2AuthorizationCodeBearer",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.applications.FastAPI"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 762,
+   "bait_score": 0,
+   "gold_rank": 17,
+   "n_nodes": 762,
+   "top5": [
+    "response_change_status_code.tutorial001_py310.get_or_create_task",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "app_testing.app_b_an_py310.main.Item",
+    "app_testing.app_b_py310.main.Item",
+    "header_param_models.tutorial003_an_py310.CommonHeaders"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 240,
+   "bait_score": 11.333,
+   "gold_rank": 46,
+   "n_nodes": 762,
+   "top5": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.security.open_id_connect_url.OpenIdConnect",
+    "fastapi.security.oauth2.OAuth2AuthorizationCodeBearer",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.param_functions.Header"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14356",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 2,
+   "bait_score": 18.047,
+   "gold_rank": 154,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi.security.api_key.handle_parsing_extra_non",
+    "authentication_error_status_code.tutorial001_an.HTTPBearer403.make_not_authenticated_error",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "authentication_error_status_code.tutorial001_an_py39.HTTPBearer403.make_not_authenticated_error"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 77,
+   "bait_score": 56.543,
+   "gold_rank": 66,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.routing.APIRouter.get",
+    "fastapi.security.oauth2.OAuth2PasswordRequestForm",
+    "fastapi.routing.APIRouter.head"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 496,
+   "bait_score": 4.029,
+   "gold_rank": 153,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "authentication_error_status_code.tutorial001_an.HTTPBearer403.make_not_authenticated_error",
+    "fastapi.openapi.models.BaseModelWithConfig",
+    "authentication_error_status_code.tutorial001_an_py39.HTTPBearer403.make_not_authenticated_error",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 225,
+   "bait_score": 26.42,
+   "gold_rank": 66,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.get",
+    "fastapi.routing.APIRouter.get",
+    "fastapi.security.oauth2.OAuth2PasswordRequestForm",
+    "fastapi.routing.APIRouter.head"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14372",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 22.123,
+   "gold_rank": 23,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi.background.handle_result_depends_security",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.api_route",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.utils.is_body_allowed_for_status_code"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 88.898,
+   "gold_rank": 69,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi.background.handle_result_depends_security",
+    "fastapi.param_functions.Security",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.security.oauth2.OAuth2",
+    "fastapi.applications.FastAPI"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 31,
+   "bait_score": 7.785,
+   "gold_rank": 6,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.api_route",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi.applications.FastAPI.add_api_route"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 132,
+   "bait_score": 18.87,
+   "gold_rank": 68,
+   "n_nodes": 1235,
+   "top5": [
+    "fastapi.param_functions.Security",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.security.oauth2.OAuth2",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14962",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 12.541,
+   "gold_rank": 154,
+   "n_nodes": 721,
+   "top5": [
+    "fastapi.utils.handle_serialize_json_response",
+    "response_model.tutorial002_py310.UserIn",
+    "response_model.tutorial003_py310.UserIn",
+    "response_model.tutorial003_01_py310.UserIn",
+    "fastapi.openapi.models.ParameterInType"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 41.606,
+   "gold_rank": 22,
+   "n_nodes": 721,
+   "top5": [
+    "fastapi.utils.handle_serialize_json_response",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.patch",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.routing.APIRouter.patch"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 721,
+   "bait_score": 0,
+   "gold_rank": 153,
+   "n_nodes": 721,
+   "top5": [
+    "response_model.tutorial002_py310.UserIn",
+    "response_model.tutorial003_py310.UserIn",
+    "response_model.tutorial003_01_py310.UserIn",
+    "fastapi._compat.v2.ModelField.serialize",
+    "fastapi.openapi.models.ParameterInType"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 721,
+   "bait_score": 0,
+   "gold_rank": 21,
+   "n_nodes": 721,
+   "top5": [
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.patch",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.routing.APIRouter.patch",
+    "fastapi.routing.APIRouter.post"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14794",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 9,
+   "bait_score": 14.928,
+   "gold_rank": 16,
+   "n_nodes": 980,
+   "top5": [
+    "dependency_testing.tutorial001_an_py310.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an_py39.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py39.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an_py310.test_override_in_items_with_params"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 41,
+   "bait_score": 40.325,
+   "gold_rank": 1,
+   "n_nodes": 980,
+   "top5": [
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.param_functions.Depends",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.applications.FastAPI"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 980,
+   "bait_score": 0,
+   "gold_rank": 15,
+   "n_nodes": 980,
+   "top5": [
+    "dependency_testing.tutorial001_an_py310.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an_py39.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py39.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_py310.test_override_in_items_with_q",
+    "dependency_testing.tutorial001_an_py310.test_override_in_items_with_params"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 590,
+   "bait_score": 3.822,
+   "gold_rank": 1,
+   "n_nodes": 980,
+   "top5": [
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.param_functions.Depends",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.applications.FastAPI"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14258",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 17.639,
+   "gold_rank": 2,
+   "n_nodes": 977,
+   "top5": [
+    "fastapi.background.handle_show_clear_error",
+    "fastapi.routing.APIRouter.include_router",
+    "fastapi.applications.FastAPI.include_router",
+    "fastapi.dependencies.utils.add_param_to_fields",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 65.423,
+   "gold_rank": 4,
+   "n_nodes": 977,
+   "top5": [
+    "fastapi.background.handle_show_clear_error",
+    "fastapi.routing._DefaultLifespan",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.routing.APIRouter.include_router",
+    "fastapi.applications.FastAPI.include_router"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 330,
+   "bait_score": 1.123,
+   "gold_rank": 1,
+   "n_nodes": 977,
+   "top5": [
+    "fastapi.routing.APIRouter.include_router",
+    "fastapi.applications.FastAPI.include_router",
+    "fastapi.dependencies.utils.add_param_to_fields",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency",
+    "fastapi.openapi.models.Reference"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 161,
+   "bait_score": 7.869,
+   "gold_rank": 3,
+   "n_nodes": 977,
+   "top5": [
+    "fastapi.routing._DefaultLifespan",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.routing.APIRouter.include_router",
+    "fastapi.applications.FastAPI.include_router",
+    "fastapi.applications.FastAPI.__init__"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14430",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 17.467,
+   "gold_rank": 36,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi.utils.handle_optional_sequence_handling",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi._compat.v2.is_sequence_field",
+    "fastapi._compat.main.is_sequence_field"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 62.264,
+   "gold_rank": 61,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi.utils.handle_optional_sequence_handling",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.param_functions.Security"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 393,
+   "bait_score": 1.128,
+   "gold_rank": 35,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi._compat.v2.is_sequence_field",
+    "fastapi._compat.main.is_sequence_field",
+    "fastapi._compat.v1.is_sequence_field"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 191,
+   "bait_score": 11.386,
+   "gold_rank": 60,
+   "n_nodes": 1251,
+   "top5": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.param_functions.Security",
+    "fastapi.routing.APIRouter"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_5624",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 13.438,
+   "gold_rank": 1179,
+   "n_nodes": 1248,
+   "top5": [
+    "fastapi.openapi.utils.handle_hierarchical_security_scope",
+    "fastapi.exceptions.DependencyScopeError",
+    "fastapi.dependencies.models.Dependant.computed_scope",
+    "fastapi.security.base.SecurityBase",
+    "fastapi.security.oauth2.SecurityScopes"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 42.117,
+   "gold_rank": 2,
+   "n_nodes": 1248,
+   "top5": [
+    "fastapi.openapi.utils.handle_hierarchical_security_scope",
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.dependencies.utils.get_parameterless_sub_dependant",
+    "fastapi.security.oauth2.SecurityScopes.__init__",
+    "fastapi.dependencies.models.Dependant.cache_key"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1248,
+   "bait_score": 0,
+   "gold_rank": 1178,
+   "n_nodes": 1248,
+   "top5": [
+    "fastapi.exceptions.DependencyScopeError",
+    "fastapi.dependencies.models.Dependant.computed_scope",
+    "fastapi.security.base.SecurityBase",
+    "fastapi.security.oauth2.SecurityScopes",
+    "fastapi.security.oauth2.SecurityScopes.__init__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 3,
+   "bait_score": 8.704,
+   "gold_rank": 1,
+   "n_nodes": 1248,
+   "top5": [
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.dependencies.utils.get_parameterless_sub_dependant",
+    "fastapi.openapi.utils.handle_openapi_schema_computed",
+    "fastapi.security.oauth2.SecurityScopes.__init__",
+    "fastapi.dependencies.models.Dependant.cache_key"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_13207",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 2,
+   "bait_score": 10.058,
+   "gold_rank": 104,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.openapi.models.OpenAPI",
+    "fastapi.openapi.utils.handle_openapi_schema_computed",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.api_route",
+    "fastapi.applications.FastAPI.add_api_route"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 75.211,
+   "gold_rank": 23,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.openapi.utils.handle_openapi_schema_computed",
+    "fastapi.applications.FastAPI.openapi",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 445,
+   "bait_score": 1.057,
+   "gold_rank": 103,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.openapi.models.OpenAPI",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.api_route",
+    "fastapi.applications.FastAPI.add_api_route",
+    "fastapi.applications.FastAPI.__init__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 333,
+   "bait_score": 4.871,
+   "gold_rank": 22,
+   "n_nodes": 1250,
+   "top5": [
+    "fastapi.applications.FastAPI.openapi",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14616",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 2,
+   "bait_score": 16.819,
+   "gold_rank": 104,
+   "n_nodes": 980,
+   "top5": [
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi.background.handle_json_list_str",
+    "fastapi._compat.v2.is_bytes_sequence_field",
+    "fastapi.exceptions.PydanticV1NotSupportedError",
+    "fastapi.datastructures.UploadFile.__get_pydantic_core_schema__"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 68,
+   "bait_score": 52.19,
+   "gold_rank": 60,
+   "n_nodes": 980,
+   "top5": [
+    "fastapi.datastructures.UploadFile",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.routing.APIRouter.post"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 980,
+   "bait_score": 0,
+   "gold_rank": 103,
+   "n_nodes": 980,
+   "top5": [
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi._compat.v2.is_bytes_sequence_field",
+    "fastapi.exceptions.PydanticV1NotSupportedError",
+    "fastapi.datastructures.UploadFile.__get_pydantic_core_schema__",
+    "fastapi.openapi.models.EmailStr.__get_pydantic_json_schema__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 132,
+   "bait_score": 30.261,
+   "gold_rank": 60,
+   "n_nodes": 980,
+   "top5": [
+    "fastapi.datastructures.UploadFile",
+    "fastapi.applications.FastAPI",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI.post",
+    "fastapi.routing.APIRouter.post"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14479",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 10,
+   "bait_score": 16.195,
+   "gold_rank": 4,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.dependencies.utils.get_typed_return_annotation",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi.dependencies.utils.ParamDetails",
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.exceptions.ValidationException._format_endpoint_context"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 105,
+   "bait_score": 51.969,
+   "gold_rank": 1,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.param_functions.Depends",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.param_functions.Path"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 818,
+   "bait_score": 0.978,
+   "gold_rank": 4,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.dependencies.utils.get_typed_return_annotation",
+    "fastapi.datastructures.UploadFile.__get_pydantic_json_schema__",
+    "fastapi.dependencies.utils.ParamDetails",
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.exceptions.ValidationException._format_endpoint_context"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 394,
+   "bait_score": 17.62,
+   "gold_rank": 1,
+   "n_nodes": 1064,
+   "top5": [
+    "fastapi.dependencies.utils.analyze_param",
+    "fastapi.param_functions.Depends",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.dependencies.utils.get_dependant",
+    "fastapi.param_functions.Path"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_14512",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 20.417,
+   "gold_rank": 424,
+   "n_nodes": 1311,
+   "top5": [
+    "fastapi.background.handle_tagged_union_discriminator",
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi.openapi.models.Discriminator",
+    "fastapi.utils.generate_operation_id_for_path"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 61.522,
+   "gold_rank": 133,
+   "n_nodes": 1311,
+   "top5": [
+    "fastapi.background.handle_tagged_union_discriminator",
+    "fastapi.param_functions.Body",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.param_functions.Header"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 408,
+   "bait_score": 1.159,
+   "gold_rank": 424,
+   "n_nodes": 1311,
+   "top5": [
+    "fastapi.dependencies.utils.is_union_of_base_models",
+    "fastapi.openapi.models.Discriminator",
+    "fastapi.utils.is_body_allowed_for_status_code",
+    "fastapi.utils.generate_operation_id_for_path",
+    "fastapi.dependencies.utils.add_param_to_fields"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 238,
+   "bait_score": 5.11,
+   "gold_rank": 132,
+   "n_nodes": 1311,
+   "top5": [
+    "fastapi.param_functions.Body",
+    "fastapi.routing.APIRouter.__init__",
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.param_functions.Header",
+    "fastapi.applications.FastAPI.build_middleware_stack"
+   ]
+  }
+ },
+ {
+  "id": "fastapi_13713",
+  "repo": "fastapi",
+  "T4_B1": {
+   "bait_rank": 6,
+   "bait_score": 11.416,
+   "gold_rank": 7,
+   "n_nodes": 1118,
+   "top5": [
+    "fastapi.openapi.models.ExternalDocumentation",
+    "fastapi.applications.FastAPI.add_api_route",
+    "fastapi.encoders.generate_encoders_by_class_tuples",
+    "fastapi.applications.FastAPI.add_api_websocket_route",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 64,
+   "bait_score": 39.995,
+   "gold_rank": 1,
+   "n_nodes": 1118,
+   "top5": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.security.api_key.APIKeyQuery",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1118,
+   "bait_score": 0,
+   "gold_rank": 6,
+   "n_nodes": 1118,
+   "top5": [
+    "fastapi.openapi.models.ExternalDocumentation",
+    "fastapi.applications.FastAPI.add_api_route",
+    "fastapi.encoders.generate_encoders_by_class_tuples",
+    "fastapi.applications.FastAPI.add_api_websocket_route",
+    "fastapi.dependencies.utils.add_non_field_param_to_dependency"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 192,
+   "bait_score": 10.29,
+   "gold_rank": 1,
+   "n_nodes": 1118,
+   "top5": [
+    "fastapi.applications.FastAPI.__init__",
+    "fastapi.applications.FastAPI",
+    "fastapi.security.api_key.APIKeyQuery",
+    "fastapi.routing.APIRouter",
+    "fastapi.applications.FastAPI.get"
+   ]
+  }
+ },
+ {
+  "id": "rich_3063",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 18.197,
+   "gold_rank": 190,
+   "n_nodes": 1142,
+   "top5": [
+    "rich._fileno.handle_escaping_trailing_backslash",
+    "rich.console.RichCast.__rich__",
+    "rich.repr.rich_repr",
+    "rich.pretty.RichFormatter",
+    "rich.protocol.rich_cast"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 46.763,
+   "gold_rank": 745,
+   "n_nodes": 1142,
+   "top5": [
+    "rich._fileno.handle_escaping_trailing_backslash",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._check_buffer"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 989,
+   "bait_score": 0.076,
+   "gold_rank": 189,
+   "n_nodes": 1142,
+   "top5": [
+    "rich.console.RichCast.__rich__",
+    "rich.repr.rich_repr",
+    "rich.pretty.RichFormatter",
+    "rich.protocol.rich_cast",
+    "rich.palette.Palette.__rich__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 387,
+   "bait_score": 0.142,
+   "gold_rank": 745,
+   "n_nodes": 1142,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._check_buffer",
+    "rich._win32_console.GetConsoleMode"
+   ]
+  }
+ },
+ {
+  "id": "rich_3777",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 18.134,
+   "gold_rank": 710,
+   "n_nodes": 1147,
+   "top5": [
+    "rich._fileno.handle_tty_interactive_env",
+    "rich.progress.Progress.remove_task",
+    "rich.progress_bar.ProgressBar",
+    "rich.progress_bar.ProgressBar.__init__",
+    "rich.progress_bar.ProgressBar.__repr__"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 42.768,
+   "gold_rank": 9,
+   "n_nodes": 1147,
+   "top5": [
+    "rich._fileno.handle_tty_interactive_env",
+    "rich.console.Console.is_terminal",
+    "examples.dynamic_progress.run_steps",
+    "rich.progress.open",
+    "rich.progress.wrap_file"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1147,
+   "bait_score": 0,
+   "gold_rank": 709,
+   "n_nodes": 1147,
+   "top5": [
+    "rich.progress.Progress.remove_task",
+    "rich.progress_bar.ProgressBar",
+    "rich.progress_bar.ProgressBar.__init__",
+    "rich.progress_bar.ProgressBar.__repr__",
+    "rich.progress_bar.ProgressBar.update"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 727,
+   "bait_score": 2.066,
+   "gold_rank": 7,
+   "n_nodes": 1147,
+   "top5": [
+    "rich.console.Console.is_terminal",
+    "examples.dynamic_progress.run_steps",
+    "rich.progress.open",
+    "rich.progress.wrap_file",
+    "rich.progress.Progress.wrap_file"
+   ]
+  }
+ },
+ {
+  "id": "rich_4079",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 14.555,
+   "gold_rank": 60,
+   "n_nodes": 1158,
+   "top5": [
+    "rich.table.handle_inline_table_code",
+    "rich.markdown.CodeBlock",
+    "rich.syntax.Syntax._process_code",
+    "rich.markdown.CodeBlock.create",
+    "rich.markdown.CodeBlock.__init__"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 2,
+   "bait_score": 19.782,
+   "gold_rank": 94,
+   "n_nodes": 1158,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.table.handle_inline_table_code",
+    "rich.markdown.Markdown",
+    "rich.markdown.Markdown.__init__",
+    "rich.progress.TimeRemainingColumn.render"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 42,
+   "bait_score": 3.298,
+   "gold_rank": 60,
+   "n_nodes": 1158,
+   "top5": [
+    "rich.markdown.CodeBlock",
+    "rich.syntax.Syntax._process_code",
+    "rich.markdown.CodeBlock.create",
+    "rich.markdown.CodeBlock.__init__",
+    "rich.markdown.CodeBlock.__rich_console__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 67,
+   "bait_score": 4.686,
+   "gold_rank": 95,
+   "n_nodes": 1158,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.markdown.Markdown",
+    "rich.markdown.Markdown.__init__",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.markdown.MarkdownContext.__init__"
+   ]
+  }
+ },
+ {
+  "id": "rich_3905",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 255,
+   "bait_score": 2.5,
+   "gold_rank": 12,
+   "n_nodes": 1155,
+   "top5": [
+    "rich._inspect.is_object_one_of_types",
+    "rich.pretty._has_default_namedtuple_repr",
+    "rich.console.NewLine",
+    "rich._win32_console.LegacyWindowsTerm.erase_start_of_line",
+    "rich.progress.open"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 152,
+   "bait_score": 26.378,
+   "gold_rank": 98,
+   "n_nodes": 1155,
+   "top5": [
+    "rich.console.Console.set_window_title",
+    "rich.console.Console.on_broken_pipe",
+    "rich.console.Console._write_buffer",
+    "rich.progress.Progress.open",
+    "rich.traceback.Traceback._guess_lexer"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1050,
+   "bait_score": 0.072,
+   "gold_rank": 12,
+   "n_nodes": 1155,
+   "top5": [
+    "rich._inspect.is_object_one_of_types",
+    "rich.pretty._has_default_namedtuple_repr",
+    "rich.console.NewLine",
+    "rich._win32_console.LegacyWindowsTerm.erase_start_of_line",
+    "rich.progress.open"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 240,
+   "bait_score": 22.185,
+   "gold_rank": 98,
+   "n_nodes": 1155,
+   "top5": [
+    "rich.console.Console.set_window_title",
+    "rich.console.Console.on_broken_pipe",
+    "rich.console.Console._write_buffer",
+    "rich.progress.Progress.open",
+    "rich.traceback.Traceback._guess_lexer"
+   ]
+  }
+ },
+ {
+  "id": "rich_3472",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 17.28,
+   "gold_rank": 117,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.box.handle_missing_field_dataclass",
+    "rich.errors.MissingStyle",
+    "rich.pretty._is_dataclass_repr",
+    "rich.pretty._get_braces_for_defaultdict",
+    "rich.pretty._get_braces_for_deque"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 41.312,
+   "gold_rank": 8,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.box.handle_missing_field_dataclass",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.pretty._is_dataclass_repr",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.console.Console._write_buffer"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 862,
+   "bait_score": 0.082,
+   "gold_rank": 116,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.errors.MissingStyle",
+    "rich.pretty._is_dataclass_repr",
+    "rich.pretty._get_braces_for_defaultdict",
+    "rich.pretty._get_braces_for_deque",
+    "rich.pretty._get_braces_for_array"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 679,
+   "bait_score": 0.144,
+   "gold_rank": 7,
+   "n_nodes": 1146,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.pretty._is_dataclass_repr",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.console.Console._write_buffer",
+    "rich.highlighter.ISO8601Highlighter"
+   ]
+  }
+ },
+ {
+  "id": "rich_3782",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 7.784,
+   "gold_rank": 9,
+   "n_nodes": 1147,
+   "top5": [
+    "rich.traceback.handle_syntax_padding",
+    "rich.padding.Padding",
+    "rich.padding.Padding.__init__",
+    "rich.padding.Padding.indent",
+    "rich.padding.Padding.unpack"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 5,
+   "bait_score": 11.521,
+   "gold_rank": 8,
+   "n_nodes": 1147,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich.traceback.handle_syntax_padding"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 881,
+   "bait_score": 0.082,
+   "gold_rank": 9,
+   "n_nodes": 1147,
+   "top5": [
+    "rich.padding.Padding",
+    "rich.padding.Padding.__init__",
+    "rich.padding.Padding.indent",
+    "rich.padding.Padding.unpack",
+    "rich.padding.Padding.__repr__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 390,
+   "bait_score": 0.144,
+   "gold_rank": 7,
+   "n_nodes": 1147,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich.syntax.Syntax"
+   ]
+  }
+ },
+ {
+  "id": "rich_3934",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 10.199,
+   "gold_rank": 5,
+   "n_nodes": 1154,
+   "top5": [
+    "rich.live._RefreshThread.handle_empty_live",
+    "rich.live.Live",
+    "rich.live.Live.__init__",
+    "rich.live.Live.start",
+    "rich.live.Live.stop"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 2,
+   "bait_score": 15.685,
+   "gold_rank": 29,
+   "n_nodes": 1154,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.live._RefreshThread.handle_empty_live",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 28,
+   "bait_score": 3.194,
+   "gold_rank": 4,
+   "n_nodes": 1154,
+   "top5": [
+    "rich.live.Live",
+    "rich.live.Live.__init__",
+    "rich.live.Live.start",
+    "rich.live.Live.stop",
+    "rich.live.Live.__enter__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 28,
+   "bait_score": 6.103,
+   "gold_rank": 29,
+   "n_nodes": 1154,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich._win32_console.GetConsoleMode"
+   ]
+  }
+ },
+ {
+  "id": "rich_3469",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 13.179,
+   "gold_rank": 34,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.align.handle_superfluous_space",
+    "rich.console.RichCast.__rich__",
+    "rich.progress.Progress.__rich__",
+    "rich.repr.rich_repr",
+    "rich.palette.Palette.__rich__"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 29.909,
+   "gold_rank": 1002,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.align.handle_superfluous_space",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 993,
+   "bait_score": 0.076,
+   "gold_rank": 33,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.console.RichCast.__rich__",
+    "rich.progress.Progress.__rich__",
+    "rich.repr.rich_repr",
+    "rich.palette.Palette.__rich__",
+    "rich.status.Status.__rich__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 430,
+   "bait_score": 0.142,
+   "gold_rank": 1002,
+   "n_nodes": 1146,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich._win32_console.GetConsoleMode"
+   ]
+  }
+ },
+ {
+  "id": "rich_3471",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 15.562,
+   "gold_rank": 2,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.table.handle_fixed_exception_append",
+    "rich.text.Text.append_tokens",
+    "examples.exception.divide_by",
+    "examples.exception.divide_all",
+    "rich.markdown.Markdown._flatten_tokens"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 28.362,
+   "gold_rank": 5,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.table.handle_fixed_exception_append",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.text.Text.append_tokens"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 858,
+   "bait_score": 0.082,
+   "gold_rank": 1,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.text.Text.append_tokens",
+    "examples.exception.divide_by",
+    "examples.exception.divide_all",
+    "rich.text.Text.append",
+    "rich.containers.Renderables.append"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 669,
+   "bait_score": 0.144,
+   "gold_rank": 3,
+   "n_nodes": 1146,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.text.Text.append_tokens",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter"
+   ]
+  }
+ },
+ {
+  "id": "rich_3506",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 3,
+   "bait_score": 10.65,
+   "gold_rank": 1,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.segment.Segment._split_cells",
+    "rich.segment.Segment.split_cells",
+    "rich.cells.handle_split_cells",
+    "rich.segment.Segment.split_lines",
+    "rich.segment.Segment.split_and_crop_lines"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 2,
+   "bait_score": 22.481,
+   "gold_rank": 4,
+   "n_nodes": 1146,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.cells.handle_split_cells",
+    "rich.segment.Segment.split_cells",
+    "rich.segment.Segment._split_cells",
+    "rich.console.Console._write_buffer"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 34,
+   "bait_score": 4.54,
+   "gold_rank": 1,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.segment.Segment._split_cells",
+    "rich.segment.Segment.split_cells",
+    "rich.segment.Segment.split_lines",
+    "rich.segment.Segment.split_and_crop_lines",
+    "rich.cells.chop_cells"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 4,
+   "bait_score": 15.218,
+   "gold_rank": 3,
+   "n_nodes": 1146,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.segment.Segment.split_cells",
+    "rich.segment.Segment._split_cells",
+    "rich.cells.handle_padding_width",
+    "rich.console.Console._write_buffer"
+   ]
+  }
+ },
+ {
+  "id": "rich_3935",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 9.36,
+   "gold_rank": 2,
+   "n_nodes": 1155,
+   "top5": [
+    "rich.panel.handle_padding_width",
+    "rich.table.Table._get_padding_width",
+    "rich.padding.Padding",
+    "rich.padding.Padding.__init__",
+    "rich.padding.Padding.indent"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 2,
+   "bait_score": 20.27,
+   "gold_rank": 11,
+   "n_nodes": 1155,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.panel.handle_padding_width",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1009,
+   "bait_score": 0.072,
+   "gold_rank": 1,
+   "n_nodes": 1155,
+   "top5": [
+    "rich.table.Table._get_padding_width",
+    "rich.padding.Padding",
+    "rich.padding.Padding.__init__",
+    "rich.padding.Padding.indent",
+    "rich.padding.Padding.unpack"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 766,
+   "bait_score": 0.138,
+   "gold_rank": 10,
+   "n_nodes": 1155,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console._write_buffer",
+    "rich.syntax.Syntax.__rich_measure__"
+   ]
+  }
+ },
+ {
+  "id": "rich_3052",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 15.734,
+   "gold_rank": 2,
+   "n_nodes": 1143,
+   "top5": [
+    "rich.tree.handle_case_insensitive_prompt",
+    "rich.prompt.PromptBase.ask",
+    "rich.prompt.PromptBase.render_default",
+    "rich.color.Color.is_default",
+    "rich.prompt.Confirm.render_default"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 7,
+   "bait_score": 37.539,
+   "gold_rank": 1,
+   "n_nodes": 1143,
+   "top5": [
+    "rich.prompt.PromptBase.ask",
+    "rich.console.Console.set_window_title",
+    "rich.console.Console._check_buffer",
+    "rich.prompt.PromptBase",
+    "rich.console.Console.input"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 919,
+   "bait_score": 0.082,
+   "gold_rank": 1,
+   "n_nodes": 1143,
+   "top5": [
+    "rich.prompt.PromptBase.ask",
+    "rich.prompt.PromptBase.render_default",
+    "rich.color.Color.is_default",
+    "rich.prompt.Confirm.render_default",
+    "rich._inspect.is_object_one_of_types"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 338,
+   "bait_score": 13.362,
+   "gold_rank": 1,
+   "n_nodes": 1143,
+   "top5": [
+    "rich.prompt.PromptBase.ask",
+    "rich.console.Console.set_window_title",
+    "rich.console.Console._check_buffer",
+    "rich.prompt.PromptBase",
+    "rich.console.Console.input"
+   ]
+  }
+ },
+ {
+  "id": "rich_3470",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 11.26,
+   "gold_rank": 703,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.logging.handle_record_capture",
+    "rich.console.Capture",
+    "rich.filesize.pick_unit_and_suffix",
+    "rich.console.CaptureError",
+    "rich.console.Capture.__init__"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 28.493,
+   "gold_rank": 3,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.logging.handle_record_capture",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 858,
+   "bait_score": 0.082,
+   "gold_rank": 702,
+   "n_nodes": 1146,
+   "top5": [
+    "rich.console.Capture",
+    "rich.filesize.pick_unit_and_suffix",
+    "rich.console.CaptureError",
+    "rich.console.Capture.__init__",
+    "rich.console.Capture.__enter__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 509,
+   "bait_score": 0.144,
+   "gold_rank": 2,
+   "n_nodes": 1146,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.console.Console.begin_capture"
+   ]
+  }
+ },
+ {
+  "id": "rich_4075",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 12.104,
+   "gold_rank": 540,
+   "n_nodes": 1157,
+   "top5": [
+    "rich.live.handle_empty_end",
+    "rich.measure.Measurement.with_maximum",
+    "rich.measure.Measurement.with_minimum",
+    "rich.text.Text.rstrip_end",
+    "rich.console.Console.end_capture"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 3,
+   "bait_score": 16.561,
+   "gold_rank": 78,
+   "n_nodes": 1157,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.live.handle_empty_end",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1012,
+   "bait_score": 0.072,
+   "gold_rank": 539,
+   "n_nodes": 1157,
+   "top5": [
+    "rich.text.Text.rstrip_end",
+    "rich.console.Console.end_capture",
+    "rich.measure.Measurement.with_maximum",
+    "rich.measure.Measurement.with_minimum",
+    "rich.text.Text.with_indent_guides"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 821,
+   "bait_score": 0.136,
+   "gold_rank": 78,
+   "n_nodes": 1157,
+   "top5": [
+    "examples.fullscreen.make_sponsor_message",
+    "rich.console.Console._write_buffer",
+    "rich.progress.TimeRemainingColumn.render",
+    "rich.highlighter.ISO8601Highlighter",
+    "rich.text.Text.split"
+   ]
+  }
+ },
+ {
+  "id": "rich_3718",
+  "repo": "rich",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 14.53,
+   "gold_rank": 19,
+   "n_nodes": 1150,
+   "top5": [
+    "rich.box.handle_panel_title_missing",
+    "rich.panel.Panel._title",
+    "examples.exception.divide_all",
+    "rich.style.Style.background_style",
+    "rich.errors.MissingStyle"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 2,
+   "bait_score": 40.57,
+   "gold_rank": 136,
+   "n_nodes": 1150,
+   "top5": [
+    "rich.console.Console.set_window_title",
+    "rich.box.handle_panel_title_missing",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.json.JSON.from_data",
+    "rich.print_json"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 1150,
+   "bait_score": 0,
+   "gold_rank": 17,
+   "n_nodes": 1150,
+   "top5": [
+    "rich.panel.Panel._title",
+    "examples.exception.divide_all",
+    "rich.errors.MissingStyle",
+    "rich.style.Style.background_style",
+    "rich.style.Style.transparent_background"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 342,
+   "bait_score": 10.611,
+   "gold_rank": 133,
+   "n_nodes": 1150,
+   "top5": [
+    "rich.console.Console.set_window_title",
+    "examples.fullscreen.make_sponsor_message",
+    "rich.json.JSON.from_data",
+    "rich.print_json",
+    "rich.console.Console.save_svg"
+   ]
+  }
+ },
+ {
+  "id": "requests_6644",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 14.542,
+   "gold_rank": 6,
+   "n_nodes": 286,
+   "top5": [
+    "requests.sessions.handle_trim_excess_leading",
+    "requests.models.RequestEncodingMixin.path_url",
+    "requests.cookies.MockRequest.get_full_url",
+    "requests.cookies.MockRequest.host",
+    "requests.utils.requote_uri"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 37.808,
+   "gold_rank": 23,
+   "n_nodes": 286,
+   "top5": [
+    "requests.sessions.handle_trim_excess_leading",
+    "requests.adapters.HTTPAdapter",
+    "requests.models.PreparedRequest.prepare_url",
+    "requests.cookies.MockRequest.get_full_url",
+    "requests.adapters.HTTPAdapter.send"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 286,
+   "bait_score": 0,
+   "gold_rank": 5,
+   "n_nodes": 286,
+   "top5": [
+    "requests.models.RequestEncodingMixin.path_url",
+    "requests.cookies.MockRequest.get_full_url",
+    "requests.cookies.MockRequest.host",
+    "requests.utils.requote_uri",
+    "requests.adapters.HTTPAdapter.request_url"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 235,
+   "bait_score": 1.091,
+   "gold_rank": 21,
+   "n_nodes": 286,
+   "top5": [
+    "requests.adapters.HTTPAdapter",
+    "requests.models.PreparedRequest.prepare_url",
+    "requests.cookies.MockRequest.get_full_url",
+    "requests.utils.unquote_header_value",
+    "requests.adapters.HTTPAdapter.send"
+   ]
+  }
+ },
+ {
+  "id": "requests_6589",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 13.297,
+   "gold_rank": 2,
+   "n_nodes": 285,
+   "top5": [
+    "requests.adapters.handle_enhance_super_len",
+    "requests.utils.super_len",
+    "requests.auth._basic_auth_str",
+    "setup.PyTest.run_tests",
+    "requests.models.Response.raise_for_status"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 40.482,
+   "gold_rank": 2,
+   "n_nodes": 285,
+   "top5": [
+    "requests.adapters.handle_enhance_super_len",
+    "requests.utils.super_len",
+    "requests.utils.unquote_unreserved",
+    "requests.models.Response.json",
+    "requests.models.RequestEncodingMixin._encode_files"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 261,
+   "bait_score": 0.018,
+   "gold_rank": 1,
+   "n_nodes": 285,
+   "top5": [
+    "requests.utils.super_len",
+    "requests.auth._basic_auth_str",
+    "setup.PyTest.run_tests",
+    "requests.structures.CaseInsensitiveDict.__len__",
+    "requests.models.Response.raise_for_status"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 75,
+   "bait_score": 7.707,
+   "gold_rank": 1,
+   "n_nodes": 285,
+   "top5": [
+    "requests.utils.super_len",
+    "requests.utils.unquote_unreserved",
+    "requests.models.Response.json",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.utils.unquote_header_value"
+   ]
+  }
+ },
+ {
+  "id": "requests_7205",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 14.112,
+   "gold_rank": 6,
+   "n_nodes": 286,
+   "top5": [
+    "requests.adapters.handle_empty_netrc_entry",
+    "requests.utils.unquote_header_value",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header",
+    "requests.utils.parse_header_links"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 3,
+   "bait_score": 38.752,
+   "gold_rank": 5,
+   "n_nodes": 286,
+   "top5": [
+    "requests.utils.super_len",
+    "requests.auth._basic_auth_str",
+    "requests.adapters.handle_empty_netrc_entry",
+    "requests.utils.prepend_scheme_if_needed",
+    "requests.utils.get_netrc_auth"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 281,
+   "bait_score": 0.005,
+   "gold_rank": 2,
+   "n_nodes": 286,
+   "top5": [
+    "requests.utils.unquote_header_value",
+    "requests.utils.get_netrc_auth",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header",
+    "requests.utils.parse_header_links"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 136,
+   "bait_score": 10.343,
+   "gold_rank": 4,
+   "n_nodes": 286,
+   "top5": [
+    "requests.utils.super_len",
+    "requests.auth._basic_auth_str",
+    "requests.utils.prepend_scheme_if_needed",
+    "requests.utils.get_netrc_auth",
+    "requests.sessions.SessionRedirectMixin.rebuild_proxies"
+   ]
+  }
+ },
+ {
+  "id": "requests_7433",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 10.939,
+   "gold_rank": 3,
+   "n_nodes": 301,
+   "top5": [
+    "requests.api.handle_prepare_body_stream",
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.models.PreparedRequest.prepare_body",
+    "requests._types.DataKwargs",
+    "requests.auth._basic_auth_str"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 47.553,
+   "gold_rank": 2,
+   "n_nodes": 301,
+   "top5": [
+    "requests.api.handle_prepare_body_stream",
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.RequestEncodingMixin._encode_params",
+    "requests.models.Response.iter_content",
+    "requests.utils.super_len"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 301,
+   "bait_score": 0,
+   "gold_rank": 2,
+   "n_nodes": 301,
+   "top5": [
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.models.PreparedRequest.prepare_body",
+    "requests._types.DataKwargs",
+    "requests.auth._basic_auth_str",
+    "requests.structures.LookupDict.__getattr__"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 242,
+   "bait_score": 1.41,
+   "gold_rank": 1,
+   "n_nodes": 301,
+   "top5": [
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.RequestEncodingMixin._encode_params",
+    "requests.models.Response.iter_content",
+    "requests.utils.super_len",
+    "requests.api.request"
+   ]
+  }
+ },
+ {
+  "id": "requests_7502",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 12.968,
+   "gold_rank": 2,
+   "n_nodes": 301,
+   "top5": [
+    "requests.compat.handle_encode_files_detection",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.exceptions.FileModeWarning",
+    "requests.structures.LookupDict.__getattr__",
+    "requests.compat._resolve_char_detection"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 1,
+   "bait_score": 44.481,
+   "gold_rank": 3,
+   "n_nodes": 301,
+   "top5": [
+    "requests.compat.handle_encode_files_detection",
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.models.RequestEncodingMixin",
+    "requests.compat._resolve_char_detection"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 301,
+   "bait_score": 0,
+   "gold_rank": 1,
+   "n_nodes": 301,
+   "top5": [
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.compat._resolve_char_detection",
+    "requests.exceptions.FileModeWarning",
+    "requests.structures.LookupDict.__getattr__",
+    "requests.adapters.HTTPAdapter.proxy_manager_for"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 99,
+   "bait_score": 1.088,
+   "gold_rank": 2,
+   "n_nodes": 301,
+   "top5": [
+    "requests.models.PreparedRequest.prepare_body",
+    "requests.models.RequestEncodingMixin._encode_files",
+    "requests.models.RequestEncodingMixin",
+    "requests.compat._resolve_char_detection",
+    "requests.utils.super_len"
+   ]
+  }
+ },
+ {
+  "id": "requests_7505",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 14.693,
+   "gold_rank": 258,
+   "n_nodes": 301,
+   "top5": [
+    "requests.adapters.handle_hasattr_checks_remaining",
+    "requests._types.SupportsRead.read",
+    "requests._types.SupportsRead",
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.utils.add_dict_to_cookiejar"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 2,
+   "bait_score": 35.686,
+   "gold_rank": 6,
+   "n_nodes": 301,
+   "top5": [
+    "requests.adapters.HTTPAdapter.proxy_headers",
+    "requests.adapters.handle_hasattr_checks_remaining",
+    "requests.auth._basic_auth_str",
+    "requests.adapters.HTTPAdapter.send",
+    "requests.models.Response.iter_content"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 301,
+   "bait_score": 0,
+   "gold_rank": 257,
+   "n_nodes": 301,
+   "top5": [
+    "requests._types.SupportsRead.read",
+    "requests._types.SupportsRead",
+    "requests.adapters.HTTPAdapter.proxy_manager_for",
+    "requests.utils.add_dict_to_cookiejar",
+    "requests._types.DataKwargs"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 249,
+   "bait_score": 1.156,
+   "gold_rank": 5,
+   "n_nodes": 301,
+   "top5": [
+    "requests.adapters.HTTPAdapter.proxy_headers",
+    "requests.adapters.HTTPAdapter.send",
+    "requests.auth._basic_auth_str",
+    "requests.models.Response.iter_content",
+    "requests.models.RequestEncodingMixin._encode_files"
+   ]
+  }
+ },
+ {
+  "id": "requests_7328",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 1,
+   "bait_score": 11.734,
+   "gold_rank": 11,
+   "n_nodes": 286,
+   "top5": [
+    "requests.adapters.handle_prevent_response_self",
+    "requests.utils.address_in_network",
+    "requests.sessions.SessionRedirectMixin.should_strip_auth",
+    "requests.sessions.Session.send",
+    "requests.models.Response.raise_for_status"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 4,
+   "bait_score": 29.277,
+   "gold_rank": 8,
+   "n_nodes": 286,
+   "top5": [
+    "requests.sessions.SessionRedirectMixin.rebuild_method",
+    "requests.sessions.Session.send",
+    "requests.utils.super_len",
+    "requests.adapters.handle_prevent_response_self",
+    "requests.models.Response.__init__"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 286,
+   "bait_score": 0,
+   "gold_rank": 10,
+   "n_nodes": 286,
+   "top5": [
+    "requests.utils.address_in_network",
+    "requests.sessions.SessionRedirectMixin.should_strip_auth",
+    "requests.sessions.Session.send",
+    "requests.models.Response.raise_for_status",
+    "requests.sessions.SessionRedirectMixin.get_redirect_target"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 131,
+   "bait_score": 7.264,
+   "gold_rank": 7,
+   "n_nodes": 286,
+   "top5": [
+    "requests.sessions.SessionRedirectMixin.rebuild_method",
+    "requests.sessions.Session.send",
+    "requests.utils.super_len",
+    "requests.models.Response.__init__",
+    "requests.sessions.SessionRedirectMixin.get_redirect_target"
+   ]
+  }
+ },
+ {
+  "id": "requests_7309",
+  "repo": "requests",
+  "T4_B1": {
+   "bait_rank": 2,
+   "bait_score": 14.112,
+   "gold_rank": 1,
+   "n_nodes": 286,
+   "top5": [
+    "requests.utils._parse_content_type_header",
+    "requests.sessions.handle_malformed_value_parsing",
+    "requests.utils.is_valid_cidr",
+    "requests.utils.unquote_header_value",
+    "requests.utils.parse_list_header"
+   ]
+  },
+  "T4_B2": {
+   "bait_rank": 2,
+   "bait_score": 32.443,
+   "gold_rank": 9,
+   "n_nodes": 286,
+   "top5": [
+    "requests.sessions.SessionRedirectMixin.resolve_redirects",
+    "requests.sessions.handle_malformed_value_parsing",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header",
+    "requests.models.PreparedRequest.prepare_url"
+   ]
+  },
+  "T4c_B1": {
+   "bait_rank": 265,
+   "bait_score": 0.005,
+   "gold_rank": 1,
+   "n_nodes": 286,
+   "top5": [
+    "requests.utils._parse_content_type_header",
+    "requests.utils.is_valid_cidr",
+    "requests.utils.unquote_header_value",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header"
+   ]
+  },
+  "T4c_B2": {
+   "bait_rank": 282,
+   "bait_score": 0.009,
+   "gold_rank": 8,
+   "n_nodes": 286,
+   "top5": [
+    "requests.sessions.SessionRedirectMixin.resolve_redirects",
+    "requests.utils.parse_list_header",
+    "requests.utils.parse_dict_header",
+    "requests.models.PreparedRequest.prepare_url",
+    "requests.adapters.HTTPAdapter.get_connection"
+   ]
+  }
+ }
+]
